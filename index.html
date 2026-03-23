@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlay Alert Dashboard Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=Roboto+Mono&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #8d82a5;
+            color: #f8fafc;
+        }
+
+        .card {
+            background: #0f172a;
+            border: 1px solid #1e293b;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .card:hover {
+            border-color: #38bdf8;
+            box-shadow: 0 10px 30px -10px rgba(56, 189, 248, 0.1);
+        }
+
+        input, select, textarea {
+            background: #020617 !important;
+            color: white !important;
+            border: 1px solid #1e293b !important;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #38bdf8 !important;
+            box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+        }
+
+        .preview-box {
+            min-height: 280px;
+            background-image: 
+                radial-gradient(circle at 2px 2px, #1e293b 1px, transparent 0);
+            background-size: 24px 24px;
+            background-color: #2a5b92;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid #a13bc0;
+        }
+
+        .alert-animation {
+            animation: bounceIn 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+        }
+
+        @keyframes bounceIn {
+            0% { transform: scale(0.3); opacity: 0; }
+            50% { transform: scale(1.05); opacity: 1; }
+            70% { transform: scale(0.9); }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #020617; }
+        ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #334155; }
+
+        @media print {
+            body * { visibility: hidden; }
+            #invoice-print-area, #invoice-print-area * { visibility: visible; }
+            #invoice-print-area { position: absolute; left: 0; top: 0; width: 100%; color: black !important; background: white !important; padding: 40px; }
+        }
+
+        .btn-gradient {
+            background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+        }
+        
+        .status-pill {
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto">
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 gap-6">
+            <div class="space-y-1">
+                <div class="flex items-center gap-3">
+                    <div class="p-2 bg-sky-500/10 rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-sky-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h1 class="text-3xl font-extrabold tracking-tight text-white">Stream<span class="text-sky-400">Alert</span> Pro</h1>
+                </div>
+                <p class="text-slate-500 text-sm font-medium">Dashboard Manajemen Overlay & Transaksi Donasi Real-time</p>
+            </div>
+            <div class="flex gap-3">
+                <button onclick="saveSettings()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 px-5 py-2.5 rounded-xl font-bold transition-all text-sm border border-slate-700">Backup Data</button>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            
+            <!-- CONTROLS AREA -->
+            <div class="lg:col-span-8 space-y-8">
+                
+                <!-- ALERT CONFIG -->
+                <div class="card p-8 rounded-2xl shadow-sm">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-1 h-6 bg-sky-500 rounded-full"></div>
+                        <h2 class="text-xl font-bold text-white">Konfigurasi Konten Alert</h2>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="text-xs font-bold text-slate-500 uppercase tracking-wider">Nama Donatur</label>
+                            <input type="text" id="name" class="w-full p-3 rounded-xl focus:ring-2 focus:ring-sky-500/20 transition-all" placeholder="Masukkan nama...">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-xs font-bold text-slate-500 uppercase tracking-wider">Jumlah (Rp)</label>
+                            <input type="number" id="amount" class="w-full p-3 rounded-xl" placeholder="Contoh: 50000">
+                        </div>
+                        <div class="md:col-span-2 space-y-2">
+                            <label class="text-xs font-bold text-slate-500 uppercase tracking-wider">Pesan Dukungan</label>
+                            <textarea id="message" rows="3" class="w-full p-3 rounded-xl resize-none" placeholder="Ketik pesan hangat untuk streamer..."></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SETTINGS GRID -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="card p-8 rounded-2xl">
+                        <h2 class="text-lg font-bold text-sky-400 mb-6 flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                            Visual & Audio
+                        </h2>
+                        <div class="space-y-5">
+                            <div class="flex items-center justify-between p-3 bg-slate-900/50 rounded-xl border border-slate-800">
+                                <span class="text-sm font-medium">Aktifkan GIF</span>
+                                <input type="checkbox" id="gifToggle" checked class="w-5 h-5 accent-sky-500">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-[10px] font-bold text-slate-500 uppercase">Upload Custom GIF</label>
+                                <input type="file" id="gifFile" accept="image/*" class="w-full text-xs text-slate-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-xs file:font-bold file:bg-sky-500/10 file:text-sky-400 hover:file:bg-sky-500/20">
+                            </div>
+                            <div class="border-t border-slate-800 pt-5">
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="text-sm font-medium">Sound Effect</span>
+                                    <input type="checkbox" id="soundToggle" checked class="w-5 h-5 accent-sky-500">
+                                </div>
+                                <div class="space-y-2 mb-4">
+                                    <label class="text-[10px] font-bold text-slate-500 uppercase">Upload Custom Sound</label>
+                                    <input type="file" id="soundFile" accept="audio/*" class="w-full text-xs text-slate-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-xs file:font-bold file:bg-sky-500/10 file:text-sky-400 hover:file:bg-sky-500/20">
+                                </div>
+                                <label class="text-[10px] font-bold text-slate-500 uppercase block mb-2">Volume Alert</label>
+                                <input type="range" id="volume" class="w-full accent-sky-500 h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer" min="0" max="1" step="0.1" value="0.7">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-8 rounded-2xl">
+                        <h2 class="text-lg font-bold text-sky-400 mb-6 flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" /></svg>
+                            Tipografi & Warna
+                        </h2>
+                        <div class="space-y-6">
+                            <div class="space-y-2">
+                                <label class="text-[10px] font-bold text-slate-500 uppercase">Font Overlay</label>
+                                <select id="fontFamily" class="w-full p-3 rounded-xl text-sm">
+                                    <option value="'Plus Jakarta Sans'">Jakarta Sans (Modern)</option>
+                                    <option value="serif">Classy Serif</option>
+                                    <option value="'Roboto Mono'">Gamer Mono</option>
+                                    <option value="'Arial Black'">Bold Impact</option>
+                                </select>
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-[10px] font-bold text-slate-500 uppercase">Warna Aksen Teks</label>
+                                <div class="flex items-center gap-4 bg-slate-900/50 p-2 rounded-xl border border-slate-800">
+                                    <input type="color" id="textColor" class="w-10 h-10 p-1 rounded-lg cursor-pointer bg-transparent border-0" value="#38bdf8">
+                                    <span class="text-sm font-mono font-bold text-slate-400" id="colorCode">#38BDF8</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INVOICE SYSTEM -->
+                <div class="card rounded-2xl shadow-xl overflow-hidden border-emerald-500/20">
+                    <div class="p-8 border-b border-slate-800 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                        <div>
+                            <h2 class="text-xl font-extrabold text-white flex items-center gap-2">
+                                <span class="p-1.5 bg-emerald-500/20 rounded-lg text-emerald-400">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                                </span>
+                                Log Transaksi & Invoice
+                            </h2>
+                            <p class="text-slate-500 text-xs mt-1">Kelola dan unduh bukti donasi resmi untuk donatur.</p>
+                        </div>
+                        <button onclick="clearInvoices()" class="text-[10px] text-red-400 hover:bg-red-500/10 px-3 py-1.5 rounded-lg border border-red-500/20 font-bold uppercase tracking-widest transition-all">Hapus Semua</button>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left text-sm">
+                            <thead class="bg-slate-900/50 text-slate-500 border-b border-slate-800">
+                                <tr>
+                                    <th class="px-8 py-4 font-bold text-[10px] uppercase">ID Ref</th>
+                                    <th class="px-4 py-4 font-bold text-[10px] uppercase">Waktu</th>
+                                    <th class="px-4 py-4 font-bold text-[10px] uppercase">Donatur</th>
+                                    <th class="px-4 py-4 font-bold text-[10px] uppercase">Nominal</th>
+                                    <th class="px-4 py-4 font-bold text-[10px] uppercase text-center">Status</th>
+                                    <th class="px-8 py-4 font-bold text-[10px] uppercase text-right">Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody id="invoiceList" class="divide-y divide-slate-800/50">
+                                <!-- JS Injection -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="noData" class="py-20 flex flex-col items-center justify-center text-slate-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 opacity-20 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0a2 2 0 01-2 2H6a2 2 0 01-2-2m16 0V9a2 2 0 00-2-2H6a2 2 0 00-2 2v10m4-7h8m-8 4h8" /></svg>
+                        <p class="italic text-sm">Belum ada transaksi terekam.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- PREVIEW AREA (STICKY) -->
+            <div class="lg:col-span-4">
+                <div class="sticky top-8 space-y-6">
+                    <div class="card p-2 rounded-2xl shadow-2xl border-2 border-slate-800 bg-black overflow-hidden">
+                        <div class="p-4 flex items-center justify-between border-b border-white/5">
+                            <div class="flex items-center gap-2">
+                                <div class="w-2 h-2 bg-red-500 rounded-full animate-ping"></div>
+                                <span class="text-[10px] font-black uppercase text-slate-400 tracking-tighter">Live Monitor</span>
+                            </div>
+                            <button onclick="clearPreview()" class="text-[9px] font-bold text-slate-600 hover:text-white uppercase transition-colors">Clear</button>
+                        </div>
+                        
+                        <div class="preview-box rounded-xl flex flex-col items-center justify-center p-8 text-center" id="previewContainer">
+                            <div id="alertContent" class="hidden alert-animation space-y-4">
+                                <img id="displayGif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJqZnl4bmZ6Z3N1eG14bmZ6Z3N1eG14bmZ6Z3N1eG14JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKMGpxf5Z9F9I2k/giphy.gif" class="w-40 h-40 object-contain mx-auto drop-shadow-[0_0_20px_rgba(56,189,248,0.4)]">
+                                <div id="renderedHtml" class="space-y-1"></div>
+                            </div>
+                            
+                            <div id="emptyState" class="space-y-3 opacity-30">
+                                <div class="w-16 h-16 border-2 border-dashed border-slate-700 rounded-full mx-auto flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                </div>
+                                <p class="text-[10px] font-bold uppercase tracking-widest text-slate-600">Waiting for Trigger</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 space-y-3 bg-slate-900/50">
+                            <button onclick="triggerAlert()" class="btn-gradient w-full py-4 rounded-xl font-black text-white text-sm shadow-xl shadow-blue-500/20 flex items-center justify-center gap-3 transition-all hover:scale-[1.02] active:scale-95">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" /></svg>
+                                TEST ALERT SEKARANG
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card p-6 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-950 border-l-4 border-emerald-500">
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="p-2 bg-emerald-500/10 rounded-lg text-emerald-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+                            </span>
+                            <h3 class="text-sm font-black text-white uppercase tracking-wider">Keamanan Transaksi</h3>
+                        </div>
+                        <p class="text-[11px] text-slate-500 leading-relaxed font-medium">
+                            Setiap donasi yang Anda buat melalui simulasi ini akan mendapatkan <b>Nomor Referensi Unik</b>. Gunakan fitur 'Download' untuk mendapatkan kartu apresiasi digital atau 'Cetak' untuk struk fisik.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PRINT AREA (HIDDEN) -->
+    <div id="invoice-print-area" class="hidden">
+        <div style="border: 2px solid black; padding: 40px; font-family: 'Courier New', monospace; max-width: 450px; margin: auto; background: white; color: black;">
+            <div style="text-align: center; border-bottom: 2px solid black; padding-bottom: 20px; margin-bottom: 20px;">
+                <h1 style="margin: 0; font-size: 24px;">OFFICIAL RECEIPT</h1>
+                <p style="margin: 5px 0; font-size: 14px;">StreamAlert Pro Network</p>
+            </div>
+            <div style="font-size: 14px; line-height: 1.6;">
+                <div style="display: flex; justify-content: space-between;">
+                    <span>Ref Number:</span>
+                    <strong id="p-id"></strong>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <span>Date Time:</span>
+                    <span id="p-date"></span>
+                </div>
+                <hr style="border: 1px dashed black; margin: 20px 0;">
+                <div style="margin-bottom: 10px;">
+                    <span style="font-size: 12px; color: #666;">DONOR NAME:</span><br>
+                    <strong id="p-name" style="font-size: 18px;"></strong>
+                </div>
+                <div style="margin-bottom: 20px; background: #f0f0f0; padding: 10px; border-radius: 5px;">
+                    <span style="font-size: 12px; color: #666;">SUPPORTER MESSAGE:</span><br>
+                    <span id="p-msg" style="font-style: italic;"></span>
+                </div>
+                <hr style="border: 1px dashed black; margin: 20px 0;">
+                <div style="text-align: right;">
+                    <p style="margin: 0; font-size: 12px;">TOTAL AMOUNT</p>
+                    <h2 style="margin: 0; font-size: 28px;">IDR <span id="p-amount"></span></h2>
+                </div>
+                <div style="text-align: center; margin-top: 40px; border-top: 1px solid black; padding-top: 20px;">
+                    <p style="font-size: 12px; margin: 0;">Verified Digital Donation</p>
+                    <p style="font-size: 10px; margin: 5px 0; color: #888;">Thank you for supporting the creator community!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOAST SYSTEM -->
+    <div id="toast" class="fixed bottom-10 left-1/2 -translate-x-1/2 translate-y-20 opacity-0 bg-white text-black px-8 py-4 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] transition-all duration-500 font-bold z-50 pointer-events-none flex items-center gap-3">
+        <div id="toastIcon" class="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center text-white text-xs">✓</div>
+        <span id="toastMsg">Aksi Berhasil!</span>
+    </div>
+
+    <!-- CANVAS FOR IMAGE DOWNLOAD (HIDDEN) -->
+    <canvas id="downloadCanvas" width="800" height="450" class="hidden"></canvas>
+
+    <script>
+        let currentGifUrl = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJqZnl4bmZ6Z3N1eG14bmZ6Z3N1eG14bmZ6Z3N1eG14JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKMGpxf5Z9F9I2k/giphy.gif";
+        let currentAudioUrl = null;
+        let invoices = [];
+
+        // UI Event Listeners
+        document.getElementById('textColor').addEventListener('input', (e) => {
+            document.getElementById('colorCode').innerText = e.target.value.toUpperCase();
+        });
+
+        document.getElementById('gifFile').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                currentGifUrl = URL.createObjectURL(file);
+                showToast("Visual kustom berhasil dimuat!");
+            }
+        });
+
+        // FIXED: Added check for soundFile existence to avoid TypeError
+        const soundFileInput = document.getElementById('soundFile');
+        if (soundFileInput) {
+            soundFileInput.addEventListener('change', function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    currentAudioUrl = URL.createObjectURL(file);
+                    showToast("Audio kustom berhasil dimuat!");
+                }
+            });
+        }
+
+        function triggerAlert() {
+            const nameInput = document.getElementById('name');
+            const amountInput = document.getElementById('amount');
+            const messageInput = document.getElementById('message');
+
+            const name = nameInput.value || "Anonim Supporter";
+            const amount = amountInput.value || "0";
+            const message = messageInput.value || "No message provided.";
+            
+            if(amount == "0") {
+                showToast("Jumlah donasi tidak boleh nol!", "error");
+                return;
+            }
+
+            // UI Feedback
+            const container = document.getElementById('alertContent');
+            const empty = document.getElementById('emptyState');
+            const displayGif = document.getElementById('displayGif');
+            const renderedBox = document.getElementById('renderedHtml');
+            const accentColor = document.getElementById('textColor').value;
+
+            renderedBox.style.fontFamily = document.getElementById('fontFamily').value;
+            
+            displayGif.style.display = document.getElementById('gifToggle').checked ? 'block' : 'none';
+            displayGif.src = currentGifUrl;
+
+            renderedBox.innerHTML = `
+                <div class="animate-pulse flex flex-col items-center">
+                    <span class="text-[10px] font-black uppercase tracking-[0.3em] text-slate-500 mb-2">New Donation Received</span>
+                    <h2 class="text-4xl font-black text-white drop-shadow-lg" style="color: ${accentColor}">Rp ${Number(amount).toLocaleString('id-ID')}</h2>
+                    <p class="text-xl font-extrabold text-white mt-1">From <span class="bg-white/10 px-2 py-0.5 rounded-lg border border-white/10">${name}</span></p>
+                    <div class="mt-6 px-4 py-2 bg-white/5 rounded-xl border border-white/5 italic text-sm text-slate-400 max-w-xs leading-relaxed">"${message}"</div>
+                </div>
+            `;
+            
+            empty.classList.add('hidden');
+            container.classList.remove('hidden');
+
+            // Play Audio
+            if(document.getElementById('soundToggle').checked && currentAudioUrl) {
+                const audio = new Audio(currentAudioUrl);
+                audio.volume = document.getElementById('volume').value;
+                audio.play().catch(() => console.log("User gesture required for audio"));
+            }
+
+            // Logic to add invoice
+            createInvoice(name, amount, message);
+            showToast("Alert Aktif & Invoice Terekam!");
+        }
+
+        function createInvoice(name, amount, message) {
+            const invId = "STR-" + Math.random().toString(36).substr(2, 6).toUpperCase();
+            const date = new Date().toLocaleString('id-ID', { 
+                day: '2-digit', 
+                month: 'short', 
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            
+            const newInvoice = {
+                id: invId,
+                date: date,
+                name: name,
+                amount: Number(amount),
+                message: message,
+                status: 'PENDING',
+                color: document.getElementById('textColor').value
+            };
+
+            invoices.unshift(newInvoice);
+            renderInvoices();
+        }
+
+        function renderInvoices() {
+            const tbody = document.getElementById('invoiceList');
+            const noData = document.getElementById('noData');
+            
+            if (!tbody) return;
+
+            if (invoices.length === 0) {
+                if(noData) noData.classList.remove('hidden');
+                tbody.innerHTML = '';
+                return;
+            }
+            
+            if(noData) noData.classList.add('hidden');
+            tbody.innerHTML = invoices.map((inv, index) => `
+                <tr class="group hover:bg-slate-900/30 transition-colors">
+                    <td class="px-8 py-5 font-mono text-[10px] font-bold text-slate-500">${inv.id}</td>
+                    <td class="px-4 py-5 text-[10px] text-slate-400 font-medium">${inv.date}</td>
+                    <td class="px-4 py-5 font-bold text-white text-sm">${inv.name}</td>
+                    <td class="px-4 py-5 text-emerald-400 font-black text-sm">Rp ${inv.amount.toLocaleString('id-ID')}</td>
+                    <td class="px-4 py-5 text-center">
+                        <span class="status-pill px-2.5 py-1 rounded-full ${inv.status === 'PAID' ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' : 'bg-amber-500/10 text-amber-400 border border-amber-500/20'}">
+                            ${inv.status}
+                        </span>
+                    </td>
+                    <td class="px-8 py-5 text-right">
+                        <div class="flex justify-end gap-2">
+                            ${inv.status === 'PENDING' ? 
+                                `<button onclick="payInvoice(${index})" class="text-[10px] font-black uppercase bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg shadow-lg shadow-emerald-900/20 transition-all">Selesaikan</button>` : 
+                                `
+                                <button onclick="downloadImage(${index})" class="p-2 bg-slate-800 hover:bg-sky-600 rounded-lg text-slate-400 hover:text-white transition-all" title="Download Sertifikat">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                                </button>
+                                <button onclick="printInvoice(${index})" class="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-400 transition-all" title="Cetak Struk">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" /></svg>
+                                </button>`
+                            }
+                        </div>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function payInvoice(index) {
+            invoices[index].status = 'PAID';
+            renderInvoices();
+            showToast("Transaksi Berhasil Diselesaikan!");
+        }
+
+        function downloadImage(index) {
+            const inv = invoices[index];
+            const canvas = document.getElementById('downloadCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+
+            ctx.fillStyle = "#020617";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.strokeStyle = inv.color;
+            ctx.lineWidth = 15;
+            ctx.strokeRect(20, 20, canvas.width-40, canvas.height-40);
+
+            ctx.textAlign = "center";
+            
+            ctx.fillStyle = "#475569";
+            ctx.font = "bold 14px 'Plus Jakarta Sans'";
+            ctx.fillText("CERTIFICATE OF APPRECIATION", canvas.width/2, 100);
+
+            ctx.fillStyle = "#ffffff";
+            ctx.font = "bold 42px 'Plus Jakarta Sans'";
+            ctx.fillText(inv.name.toUpperCase(), canvas.width/2, 180);
+
+            ctx.fillStyle = inv.color;
+            ctx.font = "bold 58px 'Plus Jakarta Sans'";
+            ctx.fillText("IDR " + inv.amount.toLocaleString('id-ID'), canvas.width/2, 260);
+
+            ctx.fillStyle = "#94a3b8";
+            ctx.font = "italic 18px 'Plus Jakarta Sans'";
+            ctx.fillText(`"${inv.message}"`, canvas.width/2, 320);
+
+            ctx.fillStyle = "#334155";
+            ctx.font = "bold 12px monospace";
+            ctx.fillText(`REF: ${inv.id}  |  DATE: ${inv.date}`, canvas.width/2, 400);
+
+            const link = document.createElement('a');
+            link.download = `Donasi-${inv.id}.png`;
+            link.href = canvas.toDataURL("image/png");
+            link.click();
+            
+            showToast("Sertifikat berhasil diunduh!");
+        }
+
+        function printInvoice(index) {
+            const inv = invoices[index];
+            
+            const pId = document.getElementById('p-id');
+            const pDate = document.getElementById('p-date');
+            const pName = document.getElementById('p-name');
+            const pMsg = document.getElementById('p-msg');
+            const pAmount = document.getElementById('p-amount');
+
+            if(pId) pId.innerText = inv.id;
+            if(pDate) pDate.innerText = inv.date;
+            if(pName) pName.innerText = inv.name;
+            if(pMsg) pMsg.innerText = inv.message;
+            if(pAmount) pAmount.innerText = inv.amount.toLocaleString('id-ID');
+
+            window.print();
+        }
+
+        function clearInvoices() {
+            if(confirm("Apakah Anda yakin ingin menghapus seluruh log transaksi?")) {
+                invoices = [];
+                renderInvoices();
+                showToast("Log transaksi dibersihkan.");
+            }
+        }
+
+        function clearPreview() {
+            const alertContent = document.getElementById('alertContent');
+            const emptyState = document.getElementById('emptyState');
+            if(alertContent) alertContent.classList.add('hidden');
+            if(emptyState) emptyState.classList.remove('hidden');
+        }
+
+        function saveSettings() {
+            showToast("Konfigurasi disimpan secara lokal.");
+        }
+
+        function showToast(msg, type = "success") {
+            const toast = document.getElementById('toast');
+            const icon = document.getElementById('toastIcon');
+            const msgEl = document.getElementById('toastMsg');
+
+            if(!toast || !icon || !msgEl) return;
+
+            msgEl.innerText = msg;
+            icon.style.backgroundColor = type === "success" ? "#10b981" : "#ef4444";
+            icon.innerText = type === "success" ? "✓" : "!";
+            
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 3000);
+        }
+
+        renderInvoices();
+    </script>
+</body>
+</html>
