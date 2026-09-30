@@ -820,139 +820,422 @@
     </section>
 
     <!-- ==================== 7. SECTION BOOKING / FORM ==================== -->
-    <section class="section" id="booking">
-      <div class="container">
-        
-        <div class="booking-container reveal">
-          
-          <!-- Left Info Pane -->
-          <div class="booking-info-pane">
-            <div class="booking-info-top">
-              <div class="section-badge badge-whatsapp" style="background: rgba(37, 211, 102, 0.2); color: #4ade80;">
-                <span class="badge-dot"></span>
-                <span>Pesan Cepat via WhatsApp</span>
-              </div>
-              <h3>Pesan Kulkas atau Booking Servis</h3>
-              <p>
-                Isi form di samping untuk mereservasi jadwal servis atau menanyakan stok unit kulkas. Data akan otomatis terangkum dalam pesan WhatsApp siap kirim!
-              </p>
+    
 
-              <ul class="booking-perks">
-                <li class="booking-perk-item">
-                  <div class="booking-perk-icon">✓</div>
-                  <div class="booking-perk-text">
-                    <h5>Tanpa Biaya Admin Tambahan</h5>
-                    <p>Konsultasi awal kerusakan via WA gratis tanpa komitmen</p>
-                  </div>
-                </li>
-                <li class="booking-perk-item">
-                  <div class="booking-perk-icon">✓</div>
-                  <div class="booking-perk-text">
-                    <h5>Jadwal Fleksibel</h5>
-                    <p>Tentukan jam kunjungan yang sesuai dengan kenyamanan Anda</p>
-                  </div>
-                </li>
-                <li class="booking-perk-item">
-                  <div class="booking-perk-icon">✓</div>
-                  <div class="booking-perk-text">
-                    <h5>Garansi Pengerjaan Nyata</h5>
-                    <p>Jaminan purna jual jika kendala kulkas kembali muncul</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
 
-            <div class="booking-info-bottom">
-              <div class="admin-avatar-group">
-                <div class="avatar-badge">A1</div>
-                <div class="avatar-badge" style="margin-left: -10px; background: #06b6d4;">A2</div>
-              </div>
-              <div class="admin-info-text">
-                <strong>Admin Bertugas Siap Melayani</strong>
-                <span>085691604318 &amp; 0895340614416</span>
-              </div>
-            </div>
-          </div>
+<section id="gallery" class="aan-gallery">
+  <div class="gallery-container">
 
-          <!-- Right Form Pane -->
-          <div class="booking-form-pane">
-            <h3 class="booking-form-title">Form Pemesanan &amp; Servis</h3>
-            <p class="booking-form-subtitle">Lengkapi formulir berikut secara singkat:</p>
+    <div class="gallery-header">
+      <span class="gallery-badge">GALERI</span>
+      <h2>Dokumentasi Pekerjaan</h2>
+      <p>Dokumentasi proses pengecekan dan pengerjaan kulkas.</p>
+    </div>
 
-            <form id="bookingForm" novalidate>
-              
-              <!-- Nama & No WA Row -->
-              <div class="form-group-row">
-                <div class="form-group">
-                  <label for="formNama" class="form-label">Nama Lengkap *</label>
-                  <input type="text" id="formNama" class="form-input" placeholder="Contoh: Budi Santoso" required>
-                </div>
-                <div class="form-group">
-                  <label for="formWa" class="form-label">Nomor WhatsApp *</label>
-                  <input type="tel" id="formWa" class="form-input" placeholder="Contoh: 081234567890" required>
-                </div>
-              </div>
+    <div class="gallery-grid">
 
-              <!-- Pilihan Layanan -->
-              <div class="form-group">
-                <label for="formLayanan" class="form-label">Pilihan Layanan *</label>
-                <select id="formLayanan" class="form-select" required>
-                  <option value="" disabled selected>Pilih salah satu layanan...</option>
-                  <option value="Beli Kulkas">Beli Kulkas (Cari Unit Baru/Bekas Berkualitas)</option>
-                  <option value="Servis Kulkas">Servis Kulkas (Tidak Dingin, Bocor, Kompresor, dll)</option>
-                  <option value="Konsultasi">Konsultasi Kendala Kulkas</option>
-                  <option value="Lainnya">Lainnya</option>
-                </select>
-              </div>
-
-              <!-- Alamat -->
-              <div class="form-group">
-                <label for="formAlamat" class="form-label">Alamat Lengkap / Wilayah *</label>
-                <input type="text" id="formAlamat" class="form-input" placeholder="Contoh: Jl. Mawar No. 12, Kel. Sukamaju (Patokan dekat kantor pos)" required>
-              </div>
-
-              <!-- Pesan / Keluhan -->
-              <div class="form-group">
-                <label for="formPesan" class="form-label">Pesan / Keluhan (Opsional)</label>
-                <textarea id="formPesan" class="form-textarea" placeholder="Contoh: Kulkas 2 pintu bagian bawah tidak dingin, sudah 3 hari..."></textarea>
-              </div>
-
-              <!-- Pilihan Nomor WhatsApp Tujuan -->
-              <div class="form-group">
-                <label class="form-label">Kirim Pesan Ke Nomor Admin:</label>
-                <div class="form-radio-group">
-                  <label class="radio-card active">
-                    <input type="radio" name="targetWa" value="wa1" checked>
-                    <div class="radio-label-text">
-                      <strong>WhatsApp 1 (Utama)</strong>
-                      <span>085691604318</span>
-                    </div>
-                  </label>
-                  <label class="radio-card">
-                    <input type="radio" name="targetWa" value="wa2">
-                    <div class="radio-label-text">
-                      <strong>WhatsApp 2 (Cadangan)</strong>
-                      <span>0895340614416</span>
-                    </div>
-                  </label>
-                </div>
-              </div>
-
-              <!-- Submit Button -->
-              <button type="submit" class="btn btn-whatsapp form-submit-btn">
-                <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2zm0 18.068c-1.624 0-3.14-.492-4.416-1.339l-.316-.208-2.91.906.924-2.83-.228-.344a8.04 8.04 0 0 1-1.378-4.524c0-4.475 3.693-8.117 8.23-8.117 4.536 0 8.228 3.642 8.228 8.117 0 4.475-3.692 8.117-8.228 8.117zm4.512-6.108c-.247-.123-1.464-.722-1.691-.804-.227-.083-.393-.124-.559.124-.165.247-.64.804-.784.97-.144.164-.289.185-.536.062-.247-.124-1.043-.385-1.986-1.226-.734-.655-1.23-1.464-1.374-1.711-.144-.247-.015-.38.109-.503.111-.112.247-.289.371-.433.124-.144.165-.247.247-.412.083-.165.042-.31-.02-.433-.062-.124-.559-1.347-.764-1.846-.2-.487-.404-.421-.559-.429l-.475-.008c-.165 0-.434.062-.661.31-.227.247-.868.848-.868 2.069 0 1.22 888 2.402 1.012 2.567.124.165 1.748 2.67 4.234 3.743.592.256 1.054.409 1.414.523.594.189 1.134.162 1.56.099.477-.071 1.464-.599 1.67-1.176.207-.577.207-1.072.145-1.175-.062-.103-.227-.165-.474-.288z"/>
-                </svg>
-                <span>Kirim Pesanan via WhatsApp</span>
-              </button>
-
-            </form>
-          </div>
-
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-01.jpeg"
+            alt="Dokumentasi Pekerjaan 1"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
         </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 1</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
 
-      </div>
-    </section>
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-02.jpeg"
+            alt="Dokumentasi Pekerjaan 2"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
+        </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 2</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-03.jpeg"
+            alt="Dokumentasi Pekerjaan 3"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
+        </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 3</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-04.jpeg"
+            alt="Dokumentasi Pekerjaan 4"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
+        </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 4</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-05.jpeg"
+            alt="Dokumentasi Pekerjaan 5"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
+        </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 5</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-06.jpeg"
+            alt="Dokumentasi Pekerjaan 6"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
+        </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 6</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-1.jpeg"
+            alt="Dokumentasi Pekerjaan 7"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
+        </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 7</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-2.jpeg"
+            alt="Dokumentasi Pekerjaan 8"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
+        </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 8</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-3.jpeg"
+            alt="Dokumentasi Pekerjaan 9"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
+        </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 9</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-4.jpeg"
+            alt="Dokumentasi Pekerjaan 10"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
+        </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 10</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-5.jpeg"
+            alt="Dokumentasi Pekerjaan 11"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
+        </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 11</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <div class="gallery-image">
+          <img
+            src="images/gallery/gallery-6.jpeg"
+            alt="Dokumentasi Pekerjaan 12"
+            loading="lazy"
+            decoding="async"
+            onerror="this.style.display='none';"
+          >
+        </div>
+        <div class="gallery-info">
+          <h3>Dokumentasi Pekerjaan 12</h3>
+          <p>Dokumentasi pekerjaan dan pemeriksaan unit kulkas.</p>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<style>
+.aan-gallery {
+  width: 100%;
+  padding: 80px 20px;
+  background: #f8fafc;
+}
+
+.aan-gallery .gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aan-gallery .gallery-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.aan-gallery .gallery-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.aan-gallery .gallery-header h2 {
+  margin: 0 0 10px;
+  font-size: 34px;
+  color: #0f172a;
+}
+
+.aan-gallery .gallery-header p {
+  margin: 0;
+  color: #64748b;
+}
+
+.aan-gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.aan-gallery .gallery-card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(15,23,42,.08);
+}
+
+.aan-gallery .gallery-image {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  background: #e2e8f0;
+}
+
+.aan-gallery .gallery-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aan-gallery .gallery-info {
+  padding: 20px;
+}
+
+.aan-gallery .gallery-info h3 {
+  margin: 0 0 7px;
+  color: #0f172a;
+  font-size: 19px;
+}
+
+.aan-gallery .gallery-info p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .aan-gallery .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .aan-gallery {
+    padding: 60px 15px;
+  }
+
+  .aan-gallery .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aan-gallery .gallery-image {
+    height: 230px;
+  }
+}
+</style>
+
+
+<style>
+.aan-gallery {
+  width: 100%;
+  padding: 80px 20px;
+  background: #f8fafc;
+}
+
+.aan-gallery .gallery-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aan-gallery .gallery-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.aan-gallery .gallery-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.aan-gallery .gallery-header h2 {
+  margin: 0 0 10px;
+  font-size: 34px;
+  color: #0f172a;
+}
+
+.aan-gallery .gallery-header p {
+  margin: 0;
+  color: #64748b;
+}
+
+.aan-gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.aan-gallery .gallery-card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(15,23,42,.08);
+}
+
+.aan-gallery .gallery-image {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  background: #e2e8f0;
+}
+
+.aan-gallery .gallery-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aan-gallery .gallery-info {
+  padding: 20px;
+}
+
+.aan-gallery .gallery-info h3 {
+  margin: 0 0 7px;
+  color: #0f172a;
+  font-size: 19px;
+}
+
+.aan-gallery .gallery-info p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .aan-gallery .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .aan-gallery .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+
 
     <!-- ==================== 8. SECTION KONTAK ==================== -->
     <section class="section section-alt" id="kontak">
