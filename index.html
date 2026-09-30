@@ -459,6 +459,51 @@
 }
 </style>
 
+
+<style id="gallery-display-fix">
+/* FORCE GALLERY IMAGES TO BE VISIBLE */
+#gallery img,
+#galeri-pekerjaan img,
+img[alt^="Galeri Pekerjaan"] {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    height: 280px !important;
+    min-height: 280px !important;
+    max-height: 280px !important;
+    object-fit: cover !important;
+    position: relative !important;
+    z-index: 10 !important;
+}
+
+#gallery,
+#galeri-pekerjaan {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+#gallery *,
+#galeri-pekerjaan * {
+    visibility: visible !important;
+}
+
+img[alt^="Galeri Pekerjaan"] {
+    background: #f1f5f9 !important;
+}
+
+@media (max-width: 700px) {
+    #gallery img,
+    #galeri-pekerjaan img,
+    img[alt^="Galeri Pekerjaan"] {
+        height: 240px !important;
+        min-height: 240px !important;
+        max-height: 240px !important;
+    }
+}
+</style>
+
 </head>
 <body>
 
