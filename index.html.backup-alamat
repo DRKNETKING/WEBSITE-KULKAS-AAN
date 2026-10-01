@@ -1,0 +1,2814 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Jual Kulkas & Servis Kulkas Profesional — Solusi Kulkas Rumah & Usaha 2026</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Pusat penjualan kulkas baru dan jasa servis kulkas panggilan profesional. Respon cepat, teknisi berpengalaman, harga transparan, bergaransi. Chat WhatsApp sekarang!">
+  <meta name="keywords" content="jual kulkas, servis kulkas, service kulkas panggilan, perbaikan kulkas tidak dingin, ganti kompresor, kulkas 2 pintu, showcase, chest freezer">
+  <meta name="author" content="Jual Kulkas & Servis Kulkas">
+  <meta name="theme-color" content="#0284c7">
+
+  <!-- Open Graph / WhatsApp Preview Meta -->
+  <meta property="og:title" content="Jual Kulkas & Servis Kulkas Profesional">
+  <meta property="og:description" content="Solusi kebutuhan kulkas rumah dan usaha. Tersedia berbagai pilihan kulkas serta layanan servis dengan proses cepat dan profesional.">
+  <meta property="og:image" content="images/hero/hero-kulkas.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Modern Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230284c7' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='12' y1='2' x2='12' y2='22'/%3E%3Cpath d='M20 12h-4l-3-3m0 6 3-3'/%3E%3Cpath d='M4 12h4l3 3m0-6-3 3'/%3E%3Cpath d='m18 6-3 3-3-3m0 12 3-3 3 3'/%3E%3Cpath d='m6 18 3-3 3 3m0-12-3 3-3-3'/%3E%3C/svg%3E">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+<style id="fix-gallery-images-css">
+.fix-image-fallback {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  padding: 20px;
+  text-align: center;
+  color: #64748b;
+  background: #f1f5f9;
+  font-size: 14px;
+}
+
+.fix-image-error .fix-image-fallback {
+  display: flex;
+}
+
+.fix-kulkas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto 0;
+}
+
+.fix-kulkas-card {
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.fix-kulkas-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.14);
+}
+
+.fix-kulkas-image {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+.fix-kulkas-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fix-kulkas-info {
+  padding: 18px;
+}
+
+.fix-kulkas-info h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.fix-kulkas-info p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.fix-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto 0;
+}
+
+.fix-gallery-card {
+  overflow: hidden;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 7px 22px rgba(15, 23, 42, 0.08);
+}
+
+.fix-gallery-button {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 260px;
+  padding: 0;
+  border: 0;
+  background: #f8fafc;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.fix-gallery-button img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .3s ease;
+}
+
+.fix-gallery-button:hover img {
+  transform: scale(1.05);
+}
+
+.fix-gallery-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 14px;
+  color: #ffffff;
+  background: linear-gradient(transparent, rgba(0,0,0,.72));
+  text-align: center;
+  font-weight: 600;
+}
+
+.fix-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  background: rgba(0,0,0,.88);
+}
+
+.fix-lightbox.active {
+  display: flex;
+}
+
+.fix-lightbox-inner {
+  position: relative;
+  width: min(1100px, 95vw);
+  max-height: 90vh;
+  text-align: center;
+}
+
+.fix-lightbox-image {
+  display: block;
+  max-width: 100%;
+  max-height: 82vh;
+  margin: auto;
+  border-radius: 12px;
+  object-fit: contain;
+}
+
+.fix-lightbox-title {
+  margin-top: 12px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.fix-lightbox-close {
+  position: absolute;
+  top: -45px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #111827;
+  font-size: 24px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .fix-kulkas-grid,
+  .fix-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .fix-kulkas-grid,
+  .fix-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fix-kulkas-image,
+  .fix-gallery-button {
+    height: 240px;
+  }
+}
+</style>
+
+
+<style id="final-image-fix">
+.final-image-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.final-image-section h2 {
+    text-align: center;
+    margin: 0 0 12px;
+}
+
+.final-image-section .final-description {
+    text-align: center;
+    margin: 0 auto 30px;
+    color: #64748b;
+}
+
+.final-kulkas-grid,
+.final-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.final-image-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+}
+
+.final-image-card img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    background: #f1f5f9;
+}
+
+.final-image-card .final-card-text {
+    padding: 16px;
+}
+
+.final-image-card .final-card-text h3 {
+    margin: 0 0 6px;
+    font-size: 18px;
+}
+
+.final-image-card .final-card-text p {
+    margin: 0;
+    color: #64748b;
+    font-size: 14px;
+}
+
+.final-gallery-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    background: #f1f5f9;
+}
+
+.final-gallery-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+    transition: transform .3s ease;
+}
+
+.final-gallery-card:hover img {
+    transform: scale(1.04);
+}
+
+.final-gallery-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    background: linear-gradient(transparent, rgba(0,0,0,.75));
+}
+
+@media (max-width: 900px) {
+    .final-kulkas-grid,
+    .final-gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .final-kulkas-grid,
+    .final-gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .final-image-card img,
+    .final-gallery-card img {
+        height: 240px;
+    }
+}
+</style>
+
+
+
+
+
+<style id="github-final-images">
+.github-final-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.github-final-section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.github-final-section-title h2 {
+    margin: 0 0 10px;
+    font-size: 32px;
+}
+
+.github-final-section-title p {
+    margin: 0;
+    color: #64748b;
+}
+
+.github-kulkas-grid,
+.github-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.github-image-card {
+    overflow: hidden;
+    background: #fff;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+}
+
+.github-image-box {
+    width: 100%;
+    height: 270px;
+    background: #f1f5f9;
+    overflow: hidden;
+}
+
+.github-image-box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.github-image-info {
+    padding: 18px;
+}
+
+.github-image-info h3 {
+    margin: 0 0 7px;
+    font-size: 19px;
+}
+
+.github-image-info p {
+    margin: 0;
+    color: #64748b;
+}
+
+.github-gallery-card {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 18px;
+    background: #f1f5f9;
+}
+
+.github-gallery-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .3s ease;
+}
+
+.github-gallery-card:hover img {
+    transform: scale(1.05);
+}
+
+.github-gallery-label {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 16px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(
+        transparent,
+        rgba(0,0,0,.8)
+    );
+}
+
+@media (max-width: 900px) {
+    .github-kulkas-grid,
+    .github-gallery-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .github-kulkas-grid,
+    .github-gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .github-image-box,
+    .github-gallery-card {
+        height: 250px;
+    }
+}
+</style>
+
+
+<style id="gallery-display-fix">
+/* FORCE GALLERY IMAGES TO BE VISIBLE */
+#gallery img,
+#galeri-pekerjaan img,
+img[alt^="Galeri Pekerjaan"] {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    height: 280px !important;
+    min-height: 280px !important;
+    max-height: 280px !important;
+    object-fit: cover !important;
+    position: relative !important;
+    z-index: 10 !important;
+}
+
+#gallery,
+#galeri-pekerjaan {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+#gallery *,
+#galeri-pekerjaan * {
+    visibility: visible !important;
+}
+
+img[alt^="Galeri Pekerjaan"] {
+    background: #f1f5f9 !important;
+}
+
+@media (max-width: 700px) {
+    #gallery img,
+    #galeri-pekerjaan img,
+    img[alt^="Galeri Pekerjaan"] {
+        height: 240px !important;
+        min-height: 240px !important;
+        max-height: 240px !important;
+    }
+}
+</style>
+
+
+<style id="ridwan-banner-final-style">
+#ridwan-banner-final {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 10;
+  background: #0b5ed7;
+}
+
+#ridwan-banner-final .ridwan-banner-container {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 420px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background: #0757c9;
+}
+
+#ridwan-banner-final img {
+  display: block;
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#ridwan-banner-final .ridwan-banner-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: 40px 6%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 35, 90, 0.88) 0%,
+    rgba(0, 50, 120, 0.62) 38%,
+    rgba(0, 50, 120, 0.08) 72%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+#ridwan-banner-final .ridwan-banner-content {
+  max-width: 650px;
+  color: #ffffff;
+}
+
+#ridwan-banner-final .ridwan-banner-badge {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.16);
+  border: 1px solid rgba(255,255,255,0.35);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+#ridwan-banner-final h1 {
+  margin: 0 0 14px;
+  color: #ffffff;
+  font-size: clamp(32px, 4.2vw, 62px);
+  line-height: 1.06;
+  font-weight: 900;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.28);
+}
+
+#ridwan-banner-final p {
+  margin: 0 0 24px;
+  color: #ffffff;
+  font-size: clamp(15px, 1.5vw, 20px);
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+#ridwan-banner-final .ridwan-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+#ridwan-banner-final .ridwan-banner-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0 22px;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #0757c9;
+  text-decoration: none;
+  font-weight: 800;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+#ridwan-banner-final .ridwan-banner-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0,0,0,.22);
+}
+
+#ridwan-banner-final .ridwan-banner-button.secondary {
+  background: rgba(255,255,255,.14);
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,.65);
+}
+
+@media (max-width: 768px) {
+  #ridwan-banner-final .ridwan-banner-container {
+    min-height: 520px;
+  }
+
+  #ridwan-banner-final img {
+    height: 520px;
+    object-position: center;
+  }
+
+  #ridwan-banner-final .ridwan-banner-overlay {
+    padding: 30px 22px;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 35, 90, 0.92) 0%,
+      rgba(0, 35, 90, 0.62) 45%,
+      rgba(0, 35, 90, 0.05) 100%
+    );
+  }
+
+  #ridwan-banner-final h1 {
+    font-size: 34px;
+  }
+
+  #ridwan-banner-final .ridwan-banner-button {
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<!-- RIDWAN_BANNER_FINAL_START -->
+<section id="ridwan-banner-final" aria-label="Jual Kulkas dan Servis Kulkas Profesional">
+  <div class="ridwan-banner-container">
+    <img
+      src="images/banner-jual-servis-kulkas.png"
+      alt="Jual Kulkas dan Servis Kulkas Profesional - Ridwan A.P Jaya Elektronik"
+      loading="eager"
+      decoding="async"
+    />
+    <div class="ridwan-banner-overlay">
+      <div class="ridwan-banner-content">
+        <span class="ridwan-banner-badge">
+          RIDWAN A.P JAYA ELEKTRONIK
+        </span>
+
+        <h1>
+          Jual Kulkas &amp;<br>
+          Servis Kulkas Profesional
+        </h1>
+
+        <p>
+          Kulkas baru • Servis panggilan • Perawatan &amp; perbaikan
+        </p>
+
+        <div class="ridwan-banner-actions">
+          <a href="#produk" class="ridwan-banner-button">
+            Lihat Kulkas
+          </a>
+
+          <a href="#layanan" class="ridwan-banner-button secondary">
+            Servis Kulkas
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- RIDWAN_BANNER_FINAL_END -->
+
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#beranda" class="brand-logo" aria-label="Beranda Jual Kulkas & Servis Kulkas">
+        <div class="brand-icon-box">
+          <!-- Snowflake / Cool Cooling Icon SVG -->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="2" x2="12" y2="22"></line>
+            <path d="M20 12h-4l-3-3m0 6 3-3"></path>
+            <path d="M4 12h4l3 3m0-6-3 3"></path>
+            <path d="m18 6-3 3-3-3m0 12 3-3 3 3"></path>
+            <path d="m6 18 3-3 3 3m0-12-3 3-3-3"></path>
+          </svg>
+        </div>
+        <div class="brand-name-group">
+          <span class="brand-title">Aan<span>Kulkas</span></span>
+          <span class="brand-subtitle">Penjualan & Servis</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav aria-label="Navigasi Utama">
+        <ul class="nav-links">
+          <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+          <li><a href="#produk" class="nav-link">Pilihan Kulkas</a></li>
+          <li><a href="#servis" class="nav-link">Jasa Servis</a></li>
+          <li><a href="#proses" class="nav-link">Alur Servis</a></li>
+          <li><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
+          <li><a href="#galeri" class="nav-link">Galeri</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- Navbar Action CTA -->
+      <div class="nav-actions">
+        <a href="https://wa.me/6285691604318?text=Halo%20Admin,%20saya%20ingin%20konsultasi%20mengenai%20kulkas" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm" aria-label="Konsultasi WhatsApp">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2zm0 18.068c-1.624 0-3.14-.492-4.416-1.339l-.316-.208-2.91.906.924-2.83-.228-.344a8.04 8.04 0 0 1-1.378-4.524c0-4.475 3.693-8.117 8.23-8.117 4.536 0 8.228 3.642 8.228 8.117 0 4.475-3.692 8.117-8.228 8.117zm4.512-6.108c-.247-.123-1.464-.722-1.691-.804-.227-.083-.393-.124-.559.124-.165.247-.64.804-.784.97-.144.164-.289.185-.536.062-.247-.124-1.043-.385-1.986-1.226-.734-.655-1.23-1.464-1.374-1.711-.144-.247-.015-.38.109-.503.111-.112.247-.289.371-.433.124-.144.165-.247.247-.412.083-.165.042-.31-.02-.433-.062-.124-.559-1.347-.764-1.846-.2-.487-.404-.421-.559-.429l-.475-.008c-.165 0-.434.062-.661.31-.227.247-.868.848-.868 2.069 0 1.22 888 2.402 1.012 2.567.124.165 1.748 2.67 4.234 3.743.592.256 1.054.409 1.414.523.594.189 1.134.162 1.56.099.477-.071 1.464-.599 1.67-1.176.207-.577.207-1.072.145-1.175-.062-.103-.227-.165-.474-.288z"/>
+          </svg>
+          <span>Chat WhatsApp</span>
+        </a>
+
+        <!-- Hamburger Button for Mobile -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Buka Menu Navigasi" aria-expanded="false">
+          <svg class="icon-hamburger" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg class="icon-close" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-content">
+      <ul class="mobile-nav-links">
+        <li><a href="#beranda" class="mobile-nav-link active">Beranda</a></li>
+        <li><a href="#produk" class="mobile-nav-link">Pilihan Kulkas</a></li>
+        <li><a href="#servis" class="mobile-nav-link">Jasa Servis</a></li>
+        <li><a href="#proses" class="mobile-nav-link">Alur Servis</a></li>
+        <li><a href="#keunggulan" class="mobile-nav-link">Keunggulan</a></li>
+        <li><a href="#galeri" class="mobile-nav-link">Galeri Pekerjaan</a></li>
+        <li><a href="#booking" class="mobile-nav-link">Booking Servis / Pesan</a></li>
+        <li><a href="#kontak" class="mobile-nav-link">Hubungi Kami</a></li>
+      </ul>
+      <div class="mobile-drawer-buttons">
+        <a href="https://wa.me/6285691604318?text=Halo%20Admin%201,%20saya%20ingin%20konsultasi%20kulkas" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2zm0 18.068c-1.624 0-3.14-.492-4.416-1.339l-.316-.208-2.91.906.924-2.83-.228-.344a8.04 8.04 0 0 1-1.378-4.524c0-4.475 3.693-8.117 8.23-8.117 4.536 0 8.228 3.642 8.228 8.117 0 4.475-3.692 8.117-8.228 8.117zm4.512-6.108c-.247-.123-1.464-.722-1.691-.804-.227-.083-.393-.124-.559.124-.165.247-.64.804-.784.97-.144.164-.289.185-.536.062-.247-.124-1.043-.385-1.986-1.226-.734-.655-1.23-1.464-1.374-1.711-.144-.247-.015-.38.109-.503.111-.112.247-.289.371-.433.124-.144.165-.247.247-.412.083-.165.042-.31-.02-.433-.062-.124-.559-1.347-.764-1.846-.2-.487-.404-.421-.559-.429l-.475-.008c-.165 0-.434.062-.661.31-.227.247-.868.848-.868 2.069 0 1.22 888 2.402 1.012 2.567.124.165 1.748 2.67 4.234 3.743.592.256 1.054.409 1.414.523.594.189 1.134.162 1.56.099.477-.071 1.464-.599 1.67-1.176.207-.577.207-1.072.145-1.175-.062-.103-.227-.165-.474-.288z"/>
+          </svg>
+          <span>Chat WhatsApp 1 (085691604318)</span>
+        </a>
+        <a href="https://wa.me/62895340614416?text=Halo%20Admin%202,%20saya%20ingin%20konsultasi%20kulkas" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <span>Chat WhatsApp 2 (0895340614416)</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==================== 1. HERO SECTION ==================== -->
+    <section class="hero" id="beranda">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left Column Content -->
+          <div class="hero-content reveal">
+            <!-- Badge -->
+            <div class="hero-badge-tag">
+              <span class="badge-dot"></span>
+              <span>LAYANAN KULKAS • PENJUALAN • SERVIS</span>
+            </div>
+
+            <!-- Main Heading -->
+            <h1 class="hero-title">
+              Jual Kulkas &amp; Servis Kulkas <span class="text-gradient">Profesional</span>
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="hero-subtitle">
+              Solusi kebutuhan kulkas rumah dan usaha. Tersedia berbagai pilihan kulkas serta layanan servis dengan proses cepat dan profesional.
+            </p>
+
+            <!-- Dual CTA Buttons -->
+            <div class="hero-cta-group">
+              <a href="https://wa.me/6285691604318?text=Halo,%20saya%20ingin%20konsultasi%20mengenai%20kulkas%20dan%20jasa%20servis." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2zm0 18.068c-1.624 0-3.14-.492-4.416-1.339l-.316-.208-2.91.906.924-2.83-.228-.344a8.04 8.04 0 0 1-1.378-4.524c0-4.475 3.693-8.117 8.23-8.117 4.536 0 8.228 3.642 8.228 8.117 0 4.475-3.692 8.117-8.228 8.117zm4.512-6.108c-.247-.123-1.464-.722-1.691-.804-.227-.083-.393-.124-.559.124-.165.247-.64.804-.784.97-.144.164-.289.185-.536.062-.247-.124-1.043-.385-1.986-1.226-.734-.655-1.23-1.464-1.374-1.711-.144-.247-.015-.38.109-.503.111-.112.247-.289.371-.433.124-.144.165-.247.247-.412.083-.165.042-.31-.02-.433-.062-.124-.559-1.347-.764-1.846-.2-.487-.404-.421-.559-.429l-.475-.008c-.165 0-.434.062-.661.31-.227.247-.868.848-.868 2.069 0 1.22 888 2.402 1.012 2.567.124.165 1.748 2.67 4.234 3.743.592.256 1.054.409 1.414.523.594.189 1.134.162 1.56.099.477-.071 1.464-.599 1.67-1.176.207-.577.207-1.072.145-1.175-.062-.103-.227-.165-.474-.288z"/>
+                </svg>
+                <span>Chat WhatsApp</span>
+              </a>
+
+              <a href="#produk" class="btn btn-secondary btn-lg">
+                <span>Jelajahi Produk</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m6 9 6 6 6-6"/>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Trust Points -->
+            <div class="hero-trust-bar">
+              <div class="trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Garansi Servis</span>
+              </div>
+              <div class="trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                <span>Teknisi Berpengalaman</span>
+              </div>
+              <div class="trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Panggilan ke Tempat</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column Visual with 3 Floating Cards -->
+          <div class="hero-visual reveal delay-1">
+            <div class="hero-glow-blob"></div>
+
+            <div class="hero-image-wrapper">
+              <div class="hero-image-inner">
+                <img src="images/banner-jual-servis-kulkas.png" alt="Kulkas Modern Premium Bergaransi" width="600" height="550" loading="eager">
+              </div>
+
+              <!-- Floating Card 1: Servis Cepat -->
+              <div class="floating-chip chip-servis">
+                <div class="chip-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="chip-text">
+                  <h4>Servis Cepat</h4>
+                  <p>Panggilan hari ini siap</p>
+                </div>
+              </div>
+
+              <!-- Floating Card 2: Respon WhatsApp -->
+              <div class="floating-chip chip-whatsapp">
+                <div class="chip-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2z"/>
+                  </svg>
+                </div>
+                <div class="chip-text">
+                  <h4>Respon WhatsApp</h4>
+                  <p>Fast response ramah</p>
+                </div>
+              </div>
+
+              <!-- Floating Card 3: Berbagai Pilihan Kulkas -->
+              <div class="floating-chip chip-kulkas">
+                <div class="chip-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </div>
+                <div class="chip-text">
+                  <h4>Berbagai Pilihan Kulkas</h4>
+                  <p>1 &amp; 2 Pintu, Showcase, Freezer</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. SECTION PRODUK KULKAS ==================== -->
+    <section class="section section-alt" id="produk">
+        <div class="fix-kulkas-grid">
+          
+      <article class="fix-kulkas-card">
+        <div class="fix-kulkas-image">
+          <img
+            src="images/gallery/gallery-01.jpeg"
+            alt="Gallery 01"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <div class="fix-image-fallback">
+            Gambar tidak tersedia
+          </div>
+        </div>
+        <div class="fix-kulkas-info">
+          <h3>Gallery 01</h3>
+          <p>Pilihan kulkas</p>
+        </div>
+      </article>
+    
+
+      <article class="fix-kulkas-card">
+        <div class="fix-kulkas-image">
+          <img
+            src="images/gallery/gallery-02.jpeg"
+            alt="Gallery 02"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <div class="fix-image-fallback">
+            Gambar tidak tersedia
+          </div>
+        </div>
+        <div class="fix-kulkas-info">
+          <h3>Gallery 02</h3>
+          <p>Pilihan kulkas</p>
+        </div>
+      </article>
+    
+
+      <article class="fix-kulkas-card">
+        <div class="fix-kulkas-image">
+          <img
+            src="images/gallery/gallery-03.jpeg"
+            alt="Gallery 03"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <div class="fix-image-fallback">
+            Gambar tidak tersedia
+          </div>
+        </div>
+        <div class="fix-kulkas-info">
+          <h3>Gallery 03</h3>
+          <p>Pilihan kulkas</p>
+        </div>
+      </article>
+    
+
+      <article class="fix-kulkas-card">
+        <div class="fix-kulkas-image">
+          <img
+            src="images/gallery/gallery-04.jpeg"
+            alt="Gallery 04"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <div class="fix-image-fallback">
+            Gambar tidak tersedia
+          </div>
+        </div>
+        <div class="fix-kulkas-info">
+          <h3>Gallery 04</h3>
+          <p>Pilihan kulkas</p>
+        </div>
+      </article>
+    
+
+      <article class="fix-kulkas-card">
+        <div class="fix-kulkas-image">
+          <img
+            src="images/gallery/gallery-05.jpeg"
+            alt="Gallery 05"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <div class="fix-image-fallback">
+            Gambar tidak tersedia
+          </div>
+        </div>
+        <div class="fix-kulkas-info">
+          <h3>Gallery 05</h3>
+          <p>Pilihan kulkas</p>
+        </div>
+      </article>
+    
+
+      <article class="fix-kulkas-card">
+        <div class="fix-kulkas-image">
+          <img
+            src="images/gallery/gallery-06.jpeg"
+            alt="Gallery 06"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <div class="fix-image-fallback">
+            Gambar tidak tersedia
+          </div>
+        </div>
+        <div class="fix-kulkas-info">
+          <h3>Gallery 06</h3>
+          <p>Pilihan kulkas</p>
+        </div>
+      </article>
+    
+        </div>
+        </section>
+
+    <!-- ==================== 3. SECTION JASA SERVIS ==================== -->
+    <section class="section" id="servis">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <div class="section-badge badge-whatsapp">
+            <span class="badge-dot"></span>
+            <span>Teknisi Berpengalaman &amp; Bergaransi</span>
+          </div>
+          <h2 class="section-title">Servis Kulkas Profesional</h2>
+          <p class="section-subtitle">
+            Kulkas bermasalah? Kami siap membantu melakukan pemeriksaan dan perbaikan langsung di lokasi Anda dengan cepat dan transparan.
+          </p>
+        </div>
+
+        <div class="service-layout">
+          
+          <!-- 4 Service Cards Grid -->
+          <div class="service-cards-grid">
+            
+            <!-- Service 1 -->
+            <div class="service-card reveal">
+              <div class="service-icon-box">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Servis Kulkas Tidak Dingin</h3>
+              <p class="service-card-desc">
+                Pemeriksaan menyeluruh pada sistem sirkulasi, pengisian freon asli (R134a, R600a), perbaikan kipas/evaporator, dan sensor defrost.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Isi ulang freon standar pabrik</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Perbaikan sensor timer &amp; bimetal</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-card reveal delay-1">
+              <div class="service-icon-box">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Perbaikan Kebocoran</h3>
+              <p class="service-card-desc">
+                Mengatasi rembesan air ke dalam rak kulkas, kebocoran saluran drainase pembuangan air, serta pengelasan pipa tembaga yang bocor.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Pembersihan saluran drain tersumbat</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Las pipa kapiler &amp; kondensor presisi</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card reveal delay-2">
+              <div class="service-icon-box">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Servis Kompresor</h3>
+              <p class="service-card-desc">
+                Solusi kompresor kulkas mati total, bunyi berdengung keras, panas berlebih, pergantian relay PTC, overload, hingga ganti kompresor baru.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Kompresor original bergaransi</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Ganti relay &amp; overload protector</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card reveal delay-3">
+              <div class="service-icon-box">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Perawatan Kulkas</h3>
+              <p class="service-card-desc">
+                Tune up performa pendinginan, flushing sistem pipa, pembersihan kerak kondensor, kalibrasi termostat, dan penggantian karet pintu/gasket.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Gasket pintu rapat &amp; hemat listrik</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Flushing &amp; pembersihan kondensor</span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!-- Service Visual Column -->
+          <div class="service-visual-col reveal delay-1">
+            <div class="service-image-box">
+              <img src="images/service/service-01.jpeg" alt="Teknisi Servis Kulkas Profesional Datang ke Rumah" loading="lazy">
+              <div class="service-badge-overlay">
+                <div class="service-badge-info">
+                  <h4>Teknisi Berpengalaman</h4>
+                  <p>Siap datang ke rumah, ruko &amp; kantor Anda</p>
+                </div>
+                <button class="btn btn-whatsapp btn-sm" onclick="selectServiceAndScroll('Servis Kulkas')">
+                  <span>Booking Servis</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Service Component & Equipment Detail Card -->
+            <div class="service-work-preview">
+              <div class="work-preview-thumb">
+                <img src="images/service/service-01.jpeg" alt="Pengerjaan Servis dan Pengelasan Kulkas di Tempat" loading="lazy">
+              </div>
+              <div class="work-preview-content">
+                <h5>Peralatan Lengkap &amp; Standar Pabrik</h5>
+                <p>Pengecekan manifold freon, kebocoran pipa kapiler &amp; ganti sparepart langsung di depan Anda.</p>
+              </div>
+            </div>
+
+            <!-- Service Call to Action banner -->
+            <div class="service-cta-banner">
+              <div class="service-cta-text">
+                <h4>Butuh Servis Hari Ini?</h4>
+                <p>Konsultasikan keluhan kulkas via WhatsApp sekarang juga</p>
+              </div>
+              <a href="#booking" class="btn btn-primary btn-sm">
+                <span>Pesan Layanan</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 4. SECTION PROSES SERVIS ==================== -->
+    <section class="section section-alt" id="proses">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <div class="section-badge">
+            <span class="badge-dot"></span>
+            <span>Alur Praktis &amp; Jelas</span>
+          </div>
+          <h2 class="section-title">4 Langkah Proses Servis</h2>
+          <p class="section-subtitle">
+            Proses perbaikan yang transparan, mudah, dan tanpa ribet mulai dari konsultasi hingga kulkas kembali dingin optimal.
+          </p>
+        </div>
+
+        <div class="process-grid">
+
+          <!-- Step 1 -->
+          <div class="process-card reveal">
+            <span class="process-step-num">01</span>
+            <div class="process-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <h3 class="process-title">1. Hubungi Kami</h3>
+            <p class="process-desc">
+              Hubungi kami melalui WhatsApp atau formulir website. Sampaikan merk kulkas, keluhan kerusakan, serta alamat lokasi Anda.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-card reveal delay-1">
+            <span class="process-step-num">02</span>
+            <div class="process-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </div>
+            <h3 class="process-title">2. Konsultasi &amp; Pemeriksaan</h3>
+            <p class="process-desc">
+              Teknisi kami jadwalkan waktu kunjungan ke tempat Anda, mendiagnosa sumber masalah secara cermat, dan menyampaikan estimasi biaya.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-card reveal delay-2">
+            <span class="process-step-num">03</span>
+            <div class="process-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+              </svg>
+            </div>
+            <h3 class="process-title">3. Perbaikan</h3>
+            <p class="process-desc">
+              Setelah disetujui, pengerjaan dilakukan langsung di tempat dengan peralatan lengkap serta sparepart berkualitas sesuai standar.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="process-card reveal delay-3">
+            <span class="process-step-num">04</span>
+            <div class="process-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h3 class="process-title">4. Kulkas Kembali Normal</h3>
+            <p class="process-desc">
+              Pengujian pendinginan hingga suhu optimal. Unit selesai diperbaiki, disertai nota bukti pengerjaan dan garansi layanan.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 5. SECTION KEUNGGULAN ==================== -->
+    <section class="section" id="keunggulan">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <div class="section-badge">
+            <span class="badge-dot"></span>
+            <span>Nilai Lebih Kami</span>
+          </div>
+          <h2 class="section-title">Kenapa Pilih Kami?</h2>
+          <p class="section-subtitle">
+            Komitmen kami adalah memberikan rasa aman, kepastian hasil kerja, dan kenyamanan terbaik bagi setiap pelanggan.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <!-- Feature 1 -->
+          <div class="feature-card reveal">
+            <div class="feature-icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="feature-title">Respon Cepat</h3>
+            <p class="feature-desc">
+              Tim customer service kami siap membalas pesan WhatsApp dengan sigap dan menjadwalkan teknisi di hari yang sama.
+            </p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-card reveal delay-1">
+            <div class="feature-icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <polyline points="16 11 18 13 22 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">Teknisi Berpengalaman</h3>
+            <p class="feature-desc">
+              Teknisi handal dengan jam terbang tinggi, terbiasa menangani semua merk kulkas lokal maupun internasional.
+            </p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-card reveal delay-2">
+            <div class="feature-icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Harga Transparan</h3>
+            <p class="feature-desc">
+              Rincian biaya perbaikan dan sparepart dijelaskan di awal sebelum dikerjakan tanpa biaya tersembunyi.
+            </p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="feature-card reveal delay-3">
+            <div class="feature-icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Konsultasi Mudah via WhatsApp</h3>
+            <p class="feature-desc">
+              Cukup kirim pesan teks, foto atau video kendala kulkas Anda, tim kami langsung memberikan diagnosa awal gratis.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 6. SECTION GALERI PEKERJAAN ==================== -->
+    
+<section id="galeri-pekerjaan" class="final-image-section">
+    <h2>Galeri Pekerjaan</h2>
+    <p class="final-description">
+        Dokumentasi pekerjaan dan hasil pemasangan kulkas.
+    </p>
+
+    <div class="final-gallery-grid">
+        
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-01.jpeg"
+            alt="Galeri Pekerjaan 1"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 1
+        </div>
+    </article>
+    
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-02.jpeg"
+            alt="Galeri Pekerjaan 2"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 2
+        </div>
+    </article>
+    
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-03.jpeg"
+            alt="Galeri Pekerjaan 3"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 3
+        </div>
+    </article>
+    
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-04.jpeg"
+            alt="Galeri Pekerjaan 4"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 4
+        </div>
+    </article>
+    
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-05.jpeg"
+            alt="Galeri Pekerjaan 5"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 5
+        </div>
+    </article>
+    
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-06.jpeg"
+            alt="Galeri Pekerjaan 6"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 6
+        </div>
+    </article>
+    
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-1.jpeg"
+            alt="Galeri Pekerjaan 7"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 7
+        </div>
+    </article>
+    
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-2.jpeg"
+            alt="Galeri Pekerjaan 8"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 8
+        </div>
+    </article>
+    
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-3.jpeg"
+            alt="Galeri Pekerjaan 9"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 9
+        </div>
+    </article>
+    
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-4.jpeg"
+            alt="Galeri Pekerjaan 10"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 10
+        </div>
+    </article>
+    
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-5.jpeg"
+            alt="Galeri Pekerjaan 11"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 11
+        </div>
+    </article>
+    
+    <article class="final-gallery-card">
+        <img
+            src="images/gallery/gallery-6.jpeg"
+            alt="Galeri Pekerjaan 12"
+            loading="lazy"
+        >
+        <div class="final-gallery-caption">
+            Galeri Pekerjaan 12
+        </div>
+    </article>
+    
+    </div>
+</section>
+
+
+    <!-- ==================== 7. SECTION BOOKING / FORM ==================== -->
+    
+
+
+<section id="gallery" class="aan-gallery">
+        <div class="fix-gallery-grid">
+          
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-01.jpeg"
+          data-gallery-title="Gallery 01"
+          aria-label="Lihat Gallery 01"
+        >
+          <img
+            src="images/gallery/gallery-01.jpeg"
+            alt="Gallery 01"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-02.jpeg"
+          data-gallery-title="Gallery 02"
+          aria-label="Lihat Gallery 02"
+        >
+          <img
+            src="images/gallery/gallery-02.jpeg"
+            alt="Gallery 02"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-03.jpeg"
+          data-gallery-title="Gallery 03"
+          aria-label="Lihat Gallery 03"
+        >
+          <img
+            src="images/gallery/gallery-03.jpeg"
+            alt="Gallery 03"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-04.jpeg"
+          data-gallery-title="Gallery 04"
+          aria-label="Lihat Gallery 04"
+        >
+          <img
+            src="images/gallery/gallery-04.jpeg"
+            alt="Gallery 04"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-05.jpeg"
+          data-gallery-title="Gallery 05"
+          aria-label="Lihat Gallery 05"
+        >
+          <img
+            src="images/gallery/gallery-05.jpeg"
+            alt="Gallery 05"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-06.jpeg"
+          data-gallery-title="Gallery 06"
+          aria-label="Lihat Gallery 06"
+        >
+          <img
+            src="images/gallery/gallery-06.jpeg"
+            alt="Gallery 06"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-1.jpeg"
+          data-gallery-title="Gallery 1"
+          aria-label="Lihat Gallery 1"
+        >
+          <img
+            src="images/gallery/gallery-1.jpeg"
+            alt="Gallery 1"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-2.jpeg"
+          data-gallery-title="Gallery 2"
+          aria-label="Lihat Gallery 2"
+        >
+          <img
+            src="images/gallery/gallery-2.jpeg"
+            alt="Gallery 2"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-3.jpeg"
+          data-gallery-title="Gallery 3"
+          aria-label="Lihat Gallery 3"
+        >
+          <img
+            src="images/gallery/gallery-3.jpeg"
+            alt="Gallery 3"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-4.jpeg"
+          data-gallery-title="Gallery 4"
+          aria-label="Lihat Gallery 4"
+        >
+          <img
+            src="images/gallery/gallery-4.jpeg"
+            alt="Gallery 4"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-5.jpeg"
+          data-gallery-title="Gallery 5"
+          aria-label="Lihat Gallery 5"
+        >
+          <img
+            src="images/gallery/gallery-5.jpeg"
+            alt="Gallery 5"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+
+      <article class="fix-gallery-card">
+        <button
+          type="button"
+          class="fix-gallery-button"
+          data-gallery-src="images/gallery/gallery-6.jpeg"
+          data-gallery-title="Gallery 6"
+          aria-label="Lihat Gallery 6"
+        >
+          <img
+            src="images/gallery/gallery-6.jpeg"
+            alt="Gallery 6"
+            loading="lazy"
+            onerror="this.style.display='none'; this.parentElement.classList.add('fix-image-error');"
+          >
+          <span class="fix-image-fallback">
+            Gambar tidak tersedia
+          </span>
+          <span class="fix-gallery-overlay">
+            Lihat Foto
+          </span>
+        </button>
+      </article>
+    
+        </div>
+        </section>
+
+<style>
+.aan-gallery {
+  width: 100%;
+  padding: 80px 20px;
+  background: #f8fafc;
+}
+
+.aan-gallery .gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aan-gallery .gallery-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.aan-gallery .gallery-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.aan-gallery .gallery-header h2 {
+  margin: 0 0 10px;
+  font-size: 34px;
+  color: #0f172a;
+}
+
+.aan-gallery .gallery-header p {
+  margin: 0;
+  color: #64748b;
+}
+
+.aan-gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.aan-gallery .gallery-card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(15,23,42,.08);
+}
+
+.aan-gallery .gallery-image {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  background: #e2e8f0;
+}
+
+.aan-gallery .gallery-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aan-gallery .gallery-info {
+  padding: 20px;
+}
+
+.aan-gallery .gallery-info h3 {
+  margin: 0 0 7px;
+  color: #0f172a;
+  font-size: 19px;
+}
+
+.aan-gallery .gallery-info p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .aan-gallery .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .aan-gallery {
+    padding: 60px 15px;
+  }
+
+  .aan-gallery .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aan-gallery .gallery-image {
+    height: 230px;
+  }
+}
+</style>
+
+
+<style>
+.aan-gallery {
+  width: 100%;
+  padding: 80px 20px;
+  background: #f8fafc;
+}
+
+.aan-gallery .gallery-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aan-gallery .gallery-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.aan-gallery .gallery-badge {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.aan-gallery .gallery-header h2 {
+  margin: 0 0 10px;
+  font-size: 34px;
+  color: #0f172a;
+}
+
+.aan-gallery .gallery-header p {
+  margin: 0;
+  color: #64748b;
+}
+
+.aan-gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.aan-gallery .gallery-card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(15,23,42,.08);
+}
+
+.aan-gallery .gallery-image {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  background: #e2e8f0;
+}
+
+.aan-gallery .gallery-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aan-gallery .gallery-info {
+  padding: 20px;
+}
+
+.aan-gallery .gallery-info h3 {
+  margin: 0 0 7px;
+  color: #0f172a;
+  font-size: 19px;
+}
+
+.aan-gallery .gallery-info p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .aan-gallery .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .aan-gallery .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+
+
+    <!-- ==================== 8. SECTION KONTAK ==================== -->
+    <section class="section section-alt" id="kontak">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <div class="section-badge">
+            <span class="badge-dot"></span>
+            <span>Layanan Cepat Tanggap</span>
+          </div>
+          <h2 class="section-title">Hubungi Kami</h2>
+          <p class="section-subtitle">
+            Punya pertanyaan mengenai stok kulkas atau ingin booking teknisi panggilan? Silakan hubungi nomor WhatsApp resmi kami di bawah ini.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- WhatsApp 1 Card -->
+          <div class="contact-card reveal">
+            <div class="contact-card-header">
+              <span class="contact-badge">WhatsApp 1 (Utama)</span>
+              <div class="contact-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2z"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="contact-card-title">Layanan WhatsApp 1</h3>
+            <div class="contact-phone-number">0856-9160-4318</div>
+            <p class="contact-card-desc">
+              Melayani konsultasi unit kulkas, tanya ketersediaan stok, konsultasi teknis, dan jadwal servis panggilan teknisi.
+            </p>
+            <div class="contact-btn-group">
+              <a href="https://wa.me/6285691604318?text=Halo%20Admin%201,%20saya%20ingin%20bertanya%20tentang%20kulkas" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="flex: 1;">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2z"/>
+                </svg>
+                <span>Chat WhatsApp 1</span>
+              </a>
+              <button class="btn btn-secondary" onclick="copyToClipboard('085691604318', 'WhatsApp 1')" title="Salin Nomor HP">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- WhatsApp 2 Card -->
+          <div class="contact-card reveal delay-1">
+            <div class="contact-card-header">
+              <span class="contact-badge" style="background: rgba(2, 132, 199, 0.12); color: var(--primary);">WhatsApp 2 (Cadangan)</span>
+              <div class="contact-icon-box" style="background: rgba(2, 132, 199, 0.15); color: var(--primary);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2z"/>
+                </svg>
+              </div>
+            </div>
+            <h3 class="contact-card-title">Layanan WhatsApp 2</h3>
+            <div class="contact-phone-number">0895-3406-14416</div>
+            <p class="contact-card-desc">
+              Jalur alternatif responsif untuk konfirmasi pengiriman kulkas, darurat servis kulkas mati, atau jika nomor 1 sedang sibuk.
+            </p>
+            <div class="contact-btn-group">
+              <a href="https://wa.me/62895340614416?text=Halo%20Admin%202,%20saya%20ingin%20bertanya%20tentang%20kulkas" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="flex: 1;">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2z"/>
+                </svg>
+                <span>Chat WhatsApp 2</span>
+              </a>
+              <button class="btn btn-secondary" onclick="copyToClipboard('0895340614416', 'WhatsApp 2')" title="Salin Nomor HP">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Meta Info Strip -->
+        <div class="contact-meta-strip reveal">
+          <div class="meta-item">
+            <div class="meta-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div class="meta-content">
+              <h5>Jam Operasional</h5>
+              <p>Senin – Minggu: 08.00 – 21.00 WIB<br>Panggilan darurat tetap kami pantau</p>
+            </div>
+          </div>
+
+          <div class="meta-item">
+            <div class="meta-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div class="meta-content">
+              <h5>Wilayah Layanan</h5>
+              <p>Melayani servis panggilan ke rumah, apartemen, kafe, resto &amp; toko di area kota dan sekitarnya</p>
+            </div>
+          </div>
+
+          <div class="meta-item">
+            <div class="meta-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="meta-content">
+              <h5>Garansi Pekerjaan</h5>
+              <p>Setiap unit kulkas yang dijual dan layanan servis selalu dibekali garansi resmi dari kami</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== 9. FLOATING WHATSAPP BUTTON ==================== -->
+  <aside class="floating-wa-container" aria-label="Akses Cepat WhatsApp">
+    <!-- Expandable Mini Picker Popup -->
+    <div class="floating-wa-popup" id="floatingWaPopup">
+      <div class="popup-header">
+        <h4>Hubungi Admin Kami</h4>
+        <p>Pilih nomor WhatsApp yang ingin Anda hubungi:</p>
+      </div>
+      <div class="popup-body">
+        <a href="https://wa.me/6285691604318?text=Halo%20Admin%201,%20saya%20ingin%20konsultasi%20kulkas" target="_blank" rel="noopener noreferrer" class="wa-target-option">
+          <div class="wa-target-left">
+            <div class="wa-target-avatar">1</div>
+            <div class="wa-target-info">
+              <h5>Admin 1 (Utama)</h5>
+              <p>085691604318 • Online</p>
+            </div>
+          </div>
+          <svg class="wa-chat-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+
+        <a href="https://wa.me/62895340614416?text=Halo%20Admin%202,%20saya%20ingin%20konsultasi%20kulkas" target="_blank" rel="noopener noreferrer" class="wa-target-option">
+          <div class="wa-target-left">
+            <div class="wa-target-avatar" style="background: rgba(2, 132, 199, 0.15); color: var(--primary);">2</div>
+            <div class="wa-target-info">
+              <h5>Admin 2 (Cadangan)</h5>
+              <p>0895340614416 • Online</p>
+            </div>
+          </div>
+          <svg class="wa-chat-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Floating Trigger Button -->
+    <button class="floating-wa-btn" id="floatingWaBtn" aria-label="Buka Chat WhatsApp">
+      <svg width="34" height="34" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2zm0 18.068c-1.624 0-3.14-.492-4.416-1.339l-.316-.208-2.91.906.924-2.83-.228-.344a8.04 8.04 0 0 1-1.378-4.524c0-4.475 3.693-8.117 8.23-8.117 4.536 0 8.228 3.642 8.228 8.117 0 4.475-3.692 8.117-8.228 8.117zm4.512-6.108c-.247-.123-1.464-.722-1.691-.804-.227-.083-.393-.124-.559.124-.165.247-.64.804-.784.97-.144.164-.289.185-.536.062-.247-.124-1.043-.385-1.986-1.226-.734-.655-1.23-1.464-1.374-1.711-.144-.247-.015-.38.109-.503.111-.112.247-.289.371-.433.124-.144.165-.247.247-.412.083-.165.042-.31-.02-.433-.062-.124-.559-1.347-.764-1.846-.2-.487-.404-.421-.559-.429l-.475-.008c-.165 0-.434.062-.661.31-.227.247-.868.848-.868 2.069 0 1.22 888 2.402 1.012 2.567.124.165 1.748 2.67 4.234 3.743.592.256 1.054.409 1.414.523.594.189 1.134.162 1.56.099.477-.071 1.464-.599 1.67-1.176.207-.577.207-1.072.145-1.175-.062-.103-.227-.165-.474-.288z"/>
+      </svg>
+    </button>
+  </aside>
+
+  <!-- ==================== 10. FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        
+        <!-- Brand Col -->
+        <div class="footer-brand">
+          <div class="brand-logo" style="margin-bottom: 0.5rem;">
+            <div class="brand-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="2" x2="12" y2="22"></line>
+                <path d="M20 12h-4l-3-3m0 6 3-3"></path>
+                <path d="M4 12h4l3 3m0-6-3 3"></path>
+                <path d="m18 6-3 3-3-3m0 12 3-3 3 3"></path>
+                <path d="m6 18 3-3 3 3m0-12-3 3-3-3"></path>
+              </svg>
+            </div>
+            <div class="brand-name-group">
+              <span class="brand-title">Jual Kulkas &amp; <span>Servis Kulkas</span></span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            Solusi kebutuhan kulkas untuk rumah dan usaha. Penyedia unit kulkas bergaransi dan layanan teknisi servis kulkas berpengalaman terpercaya.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Navigasi</h4>
+          <ul class="footer-links">
+            <li><a href="#beranda" class="footer-link">Beranda</a></li>
+            <li><a href="#produk" class="footer-link">Pilihan Kulkas</a></li>
+            <li><a href="#servis" class="footer-link">Jasa Servis</a></li>
+            <li><a href="#proses" class="footer-link">Alur Servis</a></li>
+            <li><a href="#galeri" class="footer-link">Galeri Pekerjaan</a></li>
+          </ul>
+        </div>
+
+        <!-- Layanan Kami -->
+        <div>
+          <h4 class="footer-col-title">Layanan Servis</h4>
+          <ul class="footer-links">
+            <li><a href="#servis" class="footer-link">Kulkas Tidak Dingin</a></li>
+            <li><a href="#servis" class="footer-link">Ganti Freon R134a/R600a</a></li>
+            <li><a href="#servis" class="footer-link">Perbaikan Kebocoran Air</a></li>
+            <li><a href="#servis" class="footer-link">Servis &amp; Ganti Kompresor</a></li>
+            <li><a href="#servis" class="footer-link">Maintenance Kulkas Berkala</a></li>
+          </ul>
+        </div>
+
+        <!-- Kontak WhatsApp -->
+        <div>
+          <h4 class="footer-col-title">Kontak WhatsApp</h4>
+          <div class="footer-contact-items">
+            <a href="https://wa.me/6285691604318?text=Halo%20Admin%201,%20saya%20ingin%20tanya%20kulkas" target="_blank" rel="noopener noreferrer" class="footer-wa-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2z"/>
+              </svg>
+              <span>WhatsApp 1: 085691604318</span>
+            </a>
+
+            <a href="https://wa.me/62895340614416?text=Halo%20Admin%202,%20saya%20ingin%20tanya%20kulkas" target="_blank" rel="noopener noreferrer" class="footer-wa-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.031 2C6.5 2 2 6.47 2 11.977c0 1.954.568 3.774 1.554 5.312L2 22l4.87-1.517c1.48.887 3.204 1.402 5.05 1.402 5.532 0 10.031-4.47 10.031-9.977C21.951 6.47 17.563 2 12.031 2z"/>
+              </svg>
+              <span>WhatsApp 2: 0895340614416</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2026 <strong>Jual Kulkas &amp; Servis Kulkas</strong>. All Rights Reserved. Solusi Kulkas Rumah &amp; Usaha.
+        </p>
+        <div class="footer-badges">
+          <span>Respon Cepat 2026</span>
+          <span>•</span>
+          <span>Garansi Servis</span>
+          <span>•</span>
+          <span>Panggilan ke Tempat</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== LIGHTBOX MODAL ==================== -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Pratinjau Foto">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Tutup Foto">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <img class="lightbox-img" id="lightboxImg" src="" alt="Pratinjau Foto Galeri">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+
+<div id="fixLightbox" class="fix-lightbox" aria-hidden="true">
+  <div class="fix-lightbox-inner">
+    <button type="button" class="fix-lightbox-close" id="fixLightboxClose" aria-label="Tutup">×</button>
+    <img id="fixLightboxImage" class="fix-lightbox-image" src="" alt="">
+    <div id="fixLightboxTitle" class="fix-lightbox-title"></div>
+  </div>
+</div>
+
+<script id="fix-gallery-images-js">
+(function () {
+  function initFixGallery() {
+    const lightbox = document.getElementById("fixLightbox");
+    const image = document.getElementById("fixLightboxImage");
+    const title = document.getElementById("fixLightboxTitle");
+    const close = document.getElementById("fixLightboxClose");
+    const buttons = document.querySelectorAll(".fix-gallery-button");
+
+    if (!lightbox || !image || !close) return;
+
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        const src = button.getAttribute("data-gallery-src");
+        const text = button.getAttribute("data-gallery-title") || "";
+
+        image.src = src;
+        image.alt = text;
+        title.textContent = text;
+
+        lightbox.classList.add("active");
+        lightbox.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+      });
+    });
+
+    function closeLightbox() {
+      lightbox.classList.remove("active");
+      lightbox.setAttribute("aria-hidden", "true");
+      image.src = "";
+      document.body.style.overflow = "";
+    }
+
+    close.addEventListener("click", closeLightbox);
+
+    lightbox.addEventListener("click", function (event) {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        closeLightbox();
+      }
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initFixGallery);
+  } else {
+    initFixGallery();
+  }
+})();
+</script>
+
+
+<section id="kulkas-modern-premium" class="final-image-section">
+    <h2>Kulkas Modern Premium Bergaransi</h2>
+    <p class="final-description">
+        Pilihan kulkas modern dengan tampilan premium dan bergaransi.
+    </p>
+    <div class="final-kulkas-grid">
+        
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-01.jpeg"
+            alt="Kulkas Modern Premium 1"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-02.jpeg"
+            alt="Kulkas Modern Premium 2"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-03.jpeg"
+            alt="Kulkas Modern Premium 3"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-04.jpeg"
+            alt="Kulkas Modern Premium 4"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-05.jpeg"
+            alt="Kulkas Modern Premium 5"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-06.jpeg"
+            alt="Kulkas Modern Premium 6"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-1.jpeg"
+            alt="Kulkas Modern Premium 7"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-2.jpeg"
+            alt="Kulkas Modern Premium 8"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-3.jpeg"
+            alt="Kulkas Modern Premium 9"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-4.jpeg"
+            alt="Kulkas Modern Premium 10"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-5.jpeg"
+            alt="Kulkas Modern Premium 11"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="final-image-card">
+        <img
+            src="images/gallery/gallery-6.jpeg"
+            alt="Kulkas Modern Premium 12"
+            loading="lazy"
+        >
+        <div class="final-card-text">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Produk pilihan • Bergaransi</p>
+        </div>
+    </article>
+    
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section
+    id="kulkas-modern-premium-berg aransi"
+    class="github-final-section"
+>
+    <div class="github-final-section-title">
+        <h2>Kulkas Modern Premium Bergaransi</h2>
+        <p>Pilihan kulkas modern premium dengan kualitas dan garansi.</p>
+    </div>
+
+    <div class="github-kulkas-grid">
+        
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-01.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 1"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-02.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 2"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-03.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 3"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-04.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 4"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-05.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 5"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-06.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 6"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-1.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 7"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-2.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 8"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-3.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 9"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-4.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 10"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-5.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 11"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    <article class="github-image-card">
+        <div class="github-image-box">
+            <img
+                src="images/gallery/gallery-6.jpeg"
+                alt="Kulkas Modern Premium Bergaransi 12"
+                loading="lazy"
+            >
+        </div>
+        <div class="github-image-info">
+            <h3>Kulkas Modern Premium</h3>
+            <p>Premium • Bergaransi</p>
+        </div>
+    </article>
+    
+    </div>
+</section>
+
+
+<section
+    id="galeri-pekerjaan"
+    class="github-final-section"
+>
+    <div class="github-final-section-title">
+        <h2>Galeri Pekerjaan</h2>
+        <p>Dokumentasi pekerjaan dan hasil pemasangan.</p>
+    </div>
+
+    <div class="github-gallery-grid">
+        
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-01.jpeg"
+            alt="Galeri Pekerjaan 1"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 1
+        </div>
+    </article>
+    
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-02.jpeg"
+            alt="Galeri Pekerjaan 2"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 2
+        </div>
+    </article>
+    
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-03.jpeg"
+            alt="Galeri Pekerjaan 3"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 3
+        </div>
+    </article>
+    
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-04.jpeg"
+            alt="Galeri Pekerjaan 4"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 4
+        </div>
+    </article>
+    
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-05.jpeg"
+            alt="Galeri Pekerjaan 5"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 5
+        </div>
+    </article>
+    
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-06.jpeg"
+            alt="Galeri Pekerjaan 6"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 6
+        </div>
+    </article>
+    
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-1.jpeg"
+            alt="Galeri Pekerjaan 7"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 7
+        </div>
+    </article>
+    
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-2.jpeg"
+            alt="Galeri Pekerjaan 8"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 8
+        </div>
+    </article>
+    
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-3.jpeg"
+            alt="Galeri Pekerjaan 9"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 9
+        </div>
+    </article>
+    
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-4.jpeg"
+            alt="Galeri Pekerjaan 10"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 10
+        </div>
+    </article>
+    
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-5.jpeg"
+            alt="Galeri Pekerjaan 11"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 11
+        </div>
+    </article>
+    
+    <article class="github-gallery-card">
+        <img
+            src="images/gallery/gallery-6.jpeg"
+            alt="Galeri Pekerjaan 12"
+            loading="lazy"
+        >
+        <div class="github-gallery-label">
+            Galeri Pekerjaan 12
+        </div>
+    </article>
+    
+    </div>
+</section>
+
+
+<div class="address-info">
+    <strong>Alamat:</strong><br>
+    RT 02 / RW 02, Kelurahan Gaga, Kecamatan Larangan Selatan
+</div>
+
+</body>
+</html>
