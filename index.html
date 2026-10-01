@@ -334,9 +334,6 @@
 </style>
 
 
-
-
-
 <style id="github-final-images">
 .github-final-section {
     width: 100%;
@@ -505,84 +502,531 @@ img[alt^="Galeri Pekerjaan"] {
 </style>
 
 
+<style id="ridwan-banner-final-style">
 
+/* ==========================================================
+   RIDWAN A.P JAYA ELEKTRONIK
+   BANNER 2 KOLOM
+   ========================================================== */
 
+#ridwan-banner-final {
+    position: relative;
+    width: 100%;
+    min-height: 560px;
 
+    margin: 0 auto 40px;
 
+    overflow: hidden;
+    border-radius: 0;
 
+    background: #081525;
 
-<style id="ridwan-address-center-style">
+    isolation: isolate;
+}
 
-/* ALAMAT DI AREA TENGAH BANNER */
-#ridwan-banner-final .ridwan-address-center {
-    width: min(680px, 100%);
-    margin: 10px auto 22px auto;
-    padding: 17px 24px;
+/* BACKGROUND IMAGE */
+
+#ridwan-banner-final .ridwan-banner-bg {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -3;
+}
+
+#ridwan-banner-final .ridwan-banner-bg img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+/* OVERLAY */
+
+#ridwan-banner-final .ridwan-banner-overlay {
+    position: absolute;
+    inset: 0;
+
+    z-index: -2;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(3, 12, 27, 0.96) 0%,
+            rgba(3, 12, 27, 0.91) 34%,
+            rgba(3, 12, 27, 0.72) 58%,
+            rgba(3, 12, 27, 0.38) 100%
+        );
+}
+
+/* LAYOUT 2 KOLOM */
+
+#ridwan-banner-final .ridwan-banner-layout {
+
+    width: min(1180px, 92%);
+
+    min-height: 560px;
+
+    margin: 0 auto;
+
+    padding: 55px 0;
+
+    box-sizing: border-box;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1.15fr)
+        minmax(350px, 0.85fr);
+
+    gap: 55px;
+
+    align-items: center;
+}
+
+/* ==========================================================
+   KIRI
+   ========================================================== */
+
+#ridwan-banner-final .ridwan-banner-left {
+    max-width: 700px;
+}
+
+#ridwan-banner-final .ridwan-brand {
+
+    margin-bottom: 14px;
+
+    color: #ffffff;
+
+    font-size: 18px;
+
+    font-weight: 800;
+
+    letter-spacing: 1.5px;
+
+    text-transform: uppercase;
+
+    text-shadow: 0 3px 12px rgba(0,0,0,.4);
+}
+
+#ridwan-banner-final h1 {
+
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: clamp(38px, 5vw, 64px);
+
+    line-height: 1.08;
+
+    font-weight: 900;
+
+    text-transform: none;
+
+    letter-spacing: -1.5px;
+
+    text-shadow: 0 5px 22px rgba(0,0,0,.45);
+}
+
+#ridwan-banner-final .ridwan-subtitle {
+
+    margin: 20px 0;
+
+    color: #ffffff;
+
+    font-size: 17px;
+
+    line-height: 1.6;
+
+    font-weight: 600;
+
+    text-shadow: 0 2px 10px rgba(0,0,0,.45);
+}
+
+/* LABEL */
+
+#ridwan-banner-final .ridwan-service-label {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    margin: 4px 0 25px;
+
+    padding: 11px 18px;
+
+    border-radius: 999px;
+
+    border: 1px solid rgba(255,255,255,.3);
+
+    background: rgba(255,255,255,.12);
+
+    color: #ffffff;
+
+    font-size: 13px;
+
+    font-weight: 800;
+
+    letter-spacing: .8px;
+
+    backdrop-filter: blur(7px);
+
+    -webkit-backdrop-filter: blur(7px);
+}
+
+#ridwan-banner-final .ridwan-service-label span {
+    color: #42b7ff;
+}
+
+/* BUTTONS */
+
+#ridwan-banner-final .ridwan-buttons {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 13px;
+
+    flex-wrap: wrap;
+}
+
+#ridwan-banner-final .ridwan-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-width: 145px;
+
+    padding: 13px 22px;
+
+    box-sizing: border-box;
+
+    border-radius: 999px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 800;
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+}
+
+#ridwan-banner-final .ridwan-btn:hover {
+
+    transform: translateY(-3px);
+}
+
+#ridwan-banner-final .ridwan-btn-primary {
+
+    color: #ffffff;
+
+    background: #0d6efd;
+
+    box-shadow:
+        0 10px 25px rgba(13,110,253,.35);
+}
+
+#ridwan-banner-final .ridwan-btn-secondary {
+
+    color: #ffffff;
+
+    border: 1px solid rgba(255,255,255,.55);
+
+    background: rgba(255,255,255,.10);
+}
+
+/* ==========================================================
+   KANAN - KARTU ALAMAT
+   ========================================================== */
+
+#ridwan-banner-final .ridwan-banner-right {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+#ridwan-banner-final .ridwan-address-card {
+
+    width: 100%;
+
+    max-width: 450px;
+
+    padding: 30px 30px 27px;
+
     box-sizing: border-box;
 
     text-align: center;
 
-    background: rgba(0, 0, 0, 0.48);
-    border: 1px solid rgba(255, 255, 255, 0.38);
-    border-radius: 16px;
+    border-radius: 24px;
+
+    border: 1px solid rgba(255,255,255,.38);
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.19),
+            rgba(255,255,255,.08)
+        );
 
     box-shadow:
-        0 10px 30px rgba(0, 0, 0, 0.25),
-        inset 0 1px 0 rgba(255, 255, 255, 0.12);
+        0 25px 60px rgba(0,0,0,.28),
+        inset 0 1px 0 rgba(255,255,255,.20);
 
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(13px);
 
-    position: relative;
-    z-index: 10;
+    -webkit-backdrop-filter: blur(13px);
 }
 
+/* ICON */
+
+#ridwan-banner-final .ridwan-address-icon {
+
+    width: 58px;
+
+    height: 58px;
+
+    margin: 0 auto 14px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.16);
+
+    font-size: 27px;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,.18);
+}
+
+/* TITLE */
+
 #ridwan-banner-final .ridwan-address-title {
-    margin: 0 0 8px 0;
 
     color: #ffffff;
-    font-size: 14px;
-    line-height: 1.4;
+
+    font-size: 16px;
+
     font-weight: 900;
+
     letter-spacing: 1px;
+
+    line-height: 1.4;
+
     text-transform: uppercase;
 }
 
+/* LINE */
+
+#ridwan-banner-final .ridwan-address-line {
+
+    width: 55px;
+
+    height: 3px;
+
+    margin: 14px auto 18px;
+
+    border-radius: 10px;
+
+    background: #ffffff;
+}
+
+/* ADDRESS */
+
 #ridwan-banner-final .ridwan-address-text {
-    margin: 0;
 
     color: #ffffff;
-    font-size: 14px;
-    line-height: 1.65;
+
+    font-size: 15px;
+
+    line-height: 1.75;
+
     font-weight: 600;
 
-    text-shadow: 0 2px 5px rgba(0,0,0,.4);
+    text-shadow:
+        0 2px 8px rgba(0,0,0,.35);
 }
 
-/* DESKTOP */
-@media (min-width: 769px) {
-    #ridwan-banner-final .ridwan-address-center {
-        margin-top: 12px;
-        margin-bottom: 22px;
+/* NOTE */
+
+#ridwan-banner-final .ridwan-address-note {
+
+    margin-top: 19px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid rgba(255,255,255,.22);
+
+    color: rgba(255,255,255,.88);
+
+    font-size: 12px;
+
+    line-height: 1.5;
+
+    font-weight: 600;
+}
+
+
+/* ==========================================================
+   TABLET
+   ========================================================== */
+
+@media (max-width: 900px) {
+
+    #ridwan-banner-final .ridwan-banner-layout {
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+
+        padding: 50px 0;
     }
-}
 
-/* HP */
-@media (max-width: 768px) {
-    #ridwan-banner-final .ridwan-address-center {
+    #ridwan-banner-final .ridwan-banner-left {
+
+        max-width: 720px;
+
+        text-align: center;
+
+        margin: 0 auto;
+    }
+
+    #ridwan-banner-final .ridwan-buttons {
+
+        justify-content: center;
+    }
+
+    #ridwan-banner-final .ridwan-service-label {
+
+        justify-content: center;
+    }
+
+    #ridwan-banner-final .ridwan-banner-right {
+
         width: 100%;
-        padding: 14px 15px;
-        margin-top: 8px;
-        margin-bottom: 18px;
     }
 
-    #ridwan-banner-final .ridwan-address-title {
-        font-size: 12px;
+    #ridwan-banner-final .ridwan-address-card {
+
+        max-width: 560px;
+    }
+}
+
+
+/* ==========================================================
+   MOBILE
+   ========================================================== */
+
+@media (max-width: 600px) {
+
+    #ridwan-banner-final {
+
+        min-height: auto;
+
+        border-radius: 0;
+    }
+
+    #ridwan-banner-final .ridwan-banner-overlay {
+
+        background:
+            linear-gradient(
+                180deg,
+                rgba(3,12,27,.72) 0%,
+                rgba(3,12,27,.91) 55%,
+                rgba(3,12,27,.97) 100%
+            );
+    }
+
+    #ridwan-banner-final .ridwan-banner-layout {
+
+        width: 92%;
+
+        min-height: auto;
+
+        padding: 45px 0 50px;
+
+        gap: 30px;
+    }
+
+    #ridwan-banner-final .ridwan-brand {
+
+        font-size: 14px;
+
+        letter-spacing: 1px;
+    }
+
+    #ridwan-banner-final h1 {
+
+        font-size: 36px;
+
+        line-height: 1.1;
+    }
+
+    #ridwan-banner-final .ridwan-subtitle {
+
+        font-size: 15px;
+    }
+
+    #ridwan-banner-final .ridwan-service-label {
+
+        width: 100%;
+
+        box-sizing: border-box;
+
+        font-size: 11px;
+
+        padding: 10px 12px;
+
+        justify-content: center;
+    }
+
+    #ridwan-banner-final .ridwan-buttons {
+
+        width: 100%;
+
+        flex-direction: column;
+    }
+
+    #ridwan-banner-final .ridwan-btn {
+
+        width: 100%;
+
+        max-width: 280px;
+    }
+
+    #ridwan-banner-final .ridwan-address-card {
+
+        padding: 25px 20px 22px;
+
+        border-radius: 20px;
     }
 
     #ridwan-banner-final .ridwan-address-text {
-        font-size: 12px;
-        line-height: 1.6;
+
+        font-size: 13px;
+
+        line-height: 1.7;
     }
 }
 
@@ -592,42 +1036,94 @@ img[alt^="Galeri Pekerjaan"] {
 <body>
 
 <!-- RIDWAN_BANNER_FINAL_START -->
-<section id="ridwan-banner-final" aria-label="Jual Kulkas dan Servis Kulkas Profesional">
-  <div class="ridwan-banner-container">
-    <img
-      src="images/banner-jual-servis-kulkas.png"
-      alt="Jual Kulkas dan Servis Kulkas Profesional - Ridwan A.P Jaya Elektronik"
-      loading="eager"
-      decoding="async"
-    />
-    <div class="ridwan-banner-overlay">
-      <div class="ridwan-banner-content">
-        <span class="ridwan-banner-badge">
-          RIDWAN A.P JAYA ELEKTRONIK
-        </span>
 
-        <h1>
-          Jual Kulkas &amp;<br>
-          Servis Kulkas Profesional
-        </h1>
+<section id="ridwan-banner-final">
 
-        <p>
-          Kulkas baru • Servis panggilan • Perawatan &amp; perbaikan
-        </p>
-
-        <div class="ridwan-banner-actions">
-          <a href="#produk" class="ridwan-banner-button">
-            Lihat Kulkas
-          </a>
-
-          <a href="#layanan" class="ridwan-banner-button secondary">
-            Servis Kulkas
-          </a>
-        </div>
-      </div>
+    <div class="ridwan-banner-bg">
+        <img
+            src="images/banner-jual-servis-kulkas.png"
+            alt="RIDWAN A.P JAYA ELEKTRONIK"
+        >
     </div>
-  </div>
+
+    <div class="ridwan-banner-overlay"></div>
+
+    <div class="ridwan-banner-layout">
+
+        <!-- ==================================================
+             KOLOM KIRI : INFORMASI TOKO
+             ================================================== -->
+        <div class="ridwan-banner-left">
+
+            <div class="ridwan-brand">
+                RIDWAN A.P JAYA ELEKTRONIK
+            </div>
+
+            <h1>
+                Jual Kulkas &amp;<br>
+                Servis Kulkas Profesional
+            </h1>
+
+            <p class="ridwan-subtitle">
+                Kulkas baru • Servis panggilan • Perawatan &amp; perbaikan
+            </p>
+
+            <div class="ridwan-service-label">
+                <span>●</span>
+                LAYANAN KULKAS • PENJUALAN • SERVIS
+            </div>
+
+            <div class="ridwan-buttons">
+
+                <a href="#produk" class="ridwan-btn ridwan-btn-primary">
+                    Lihat Kulkas
+                </a>
+
+                <a href="#servis" class="ridwan-btn ridwan-btn-secondary">
+                    Servis Kulkas
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================================================
+             KOLOM KANAN : ALAMAT
+             ================================================== -->
+        <div class="ridwan-banner-right">
+
+            <div class="ridwan-address-card">
+
+                <div class="ridwan-address-icon">
+                    📍
+                </div>
+
+                <div class="ridwan-address-title">
+                    ALAMAT TOKO &amp; LAYANAN
+                </div>
+
+                <div class="ridwan-address-line"></div>
+
+                <div class="ridwan-address-text">
+                    JL. MUSHOLLA HJ. JAWAB
+                    LARANGAN SELATAN - CILEDUG,
+                    KP. GAGA LARANGAN - TAMAN ASRI
+                    RT.002 / RW002 - NO 81
+                </div>
+
+                <div class="ridwan-address-note">
+                    Melayani penjualan dan servis kulkas
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
+
 <!-- RIDWAN_BANNER_FINAL_END -->
 
 
@@ -2408,14 +2904,6 @@ img[alt^="Galeri Pekerjaan"] {
     
     </div>
 </section>
-
-
-
-
-
-
-
-
 
 
 <section
