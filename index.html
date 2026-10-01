@@ -504,8 +504,189 @@ img[alt^="Galeri Pekerjaan"] {
 }
 </style>
 
+
+<style id="ridwan-banner-final-style">
+#ridwan-banner-final {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 10;
+  background: #0b5ed7;
+}
+
+#ridwan-banner-final .ridwan-banner-container {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 420px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background: #0757c9;
+}
+
+#ridwan-banner-final img {
+  display: block;
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#ridwan-banner-final .ridwan-banner-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: 40px 6%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 35, 90, 0.88) 0%,
+    rgba(0, 50, 120, 0.62) 38%,
+    rgba(0, 50, 120, 0.08) 72%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+#ridwan-banner-final .ridwan-banner-content {
+  max-width: 650px;
+  color: #ffffff;
+}
+
+#ridwan-banner-final .ridwan-banner-badge {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.16);
+  border: 1px solid rgba(255,255,255,0.35);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+#ridwan-banner-final h1 {
+  margin: 0 0 14px;
+  color: #ffffff;
+  font-size: clamp(32px, 4.2vw, 62px);
+  line-height: 1.06;
+  font-weight: 900;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.28);
+}
+
+#ridwan-banner-final p {
+  margin: 0 0 24px;
+  color: #ffffff;
+  font-size: clamp(15px, 1.5vw, 20px);
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+#ridwan-banner-final .ridwan-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+#ridwan-banner-final .ridwan-banner-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0 22px;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #0757c9;
+  text-decoration: none;
+  font-weight: 800;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+#ridwan-banner-final .ridwan-banner-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0,0,0,.22);
+}
+
+#ridwan-banner-final .ridwan-banner-button.secondary {
+  background: rgba(255,255,255,.14);
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,.65);
+}
+
+@media (max-width: 768px) {
+  #ridwan-banner-final .ridwan-banner-container {
+    min-height: 520px;
+  }
+
+  #ridwan-banner-final img {
+    height: 520px;
+    object-position: center;
+  }
+
+  #ridwan-banner-final .ridwan-banner-overlay {
+    padding: 30px 22px;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 35, 90, 0.92) 0%,
+      rgba(0, 35, 90, 0.62) 45%,
+      rgba(0, 35, 90, 0.05) 100%
+    );
+  }
+
+  #ridwan-banner-final h1 {
+    font-size: 34px;
+  }
+
+  #ridwan-banner-final .ridwan-banner-button {
+    width: 100%;
+  }
+}
+</style>
+
 </head>
 <body>
+
+<!-- RIDWAN_BANNER_FINAL_START -->
+<section id="ridwan-banner-final" aria-label="Jual Kulkas dan Servis Kulkas Profesional">
+  <div class="ridwan-banner-container">
+    <img
+      src="images/banner-jual-servis-kulkas.png"
+      alt="Jual Kulkas dan Servis Kulkas Profesional - Ridwan A.P Jaya Elektronik"
+      loading="eager"
+      decoding="async"
+    />
+    <div class="ridwan-banner-overlay">
+      <div class="ridwan-banner-content">
+        <span class="ridwan-banner-badge">
+          RIDWAN A.P JAYA ELEKTRONIK
+        </span>
+
+        <h1>
+          Jual Kulkas &amp;<br>
+          Servis Kulkas Profesional
+        </h1>
+
+        <p>
+          Kulkas baru • Servis panggilan • Perawatan &amp; perbaikan
+        </p>
+
+        <div class="ridwan-banner-actions">
+          <a href="#produk" class="ridwan-banner-button">
+            Lihat Kulkas
+          </a>
+
+          <a href="#layanan" class="ridwan-banner-button secondary">
+            Servis Kulkas
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- RIDWAN_BANNER_FINAL_END -->
+
 
   <!-- ==================== HEADER & NAVBAR ==================== -->
   <header class="navbar" id="navbar">
@@ -656,7 +837,7 @@ img[alt^="Galeri Pekerjaan"] {
 
             <div class="hero-image-wrapper">
               <div class="hero-image-inner">
-                <img src="images/hero/hero-01.jpeg" alt="Kulkas Modern Premium Bergaransi" width="600" height="550" loading="eager">
+                <img src="images/banner-jual-servis-kulkas.png" alt="Kulkas Modern Premium Bergaransi" width="600" height="550" loading="eager">
               </div>
 
               <!-- Floating Card 1: Servis Cepat -->
