@@ -1032,6 +1032,104 @@ img[alt^="Galeri Pekerjaan"] {
 
 </style>
 
+
+<style id="ridwan-google-maps-style">
+
+/* ==========================================================
+   GOOGLE MAPS BUTTON
+   ========================================================== */
+
+#ridwan-banner-final .ridwan-maps-button {
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    min-height: 50px;
+
+    padding: 13px 18px;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 9px;
+
+    border-radius: 13px;
+
+    border: 1px solid rgba(255,255,255,.38);
+
+    background: rgba(255,255,255,.16);
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 800;
+
+    letter-spacing: .2px;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.16);
+
+    backdrop-filter: blur(8px);
+
+    -webkit-backdrop-filter: blur(8px);
+
+    transition:
+        transform .2s ease,
+        background .2s ease,
+        box-shadow .2s ease;
+}
+
+#ridwan-banner-final .ridwan-maps-button:hover {
+
+    transform: translateY(-2px);
+
+    background: rgba(255,255,255,.26);
+
+    box-shadow:
+        0 12px 25px rgba(0,0,0,.22);
+}
+
+#ridwan-banner-final .ridwan-maps-icon {
+
+    font-size: 18px;
+
+    line-height: 1;
+}
+
+#ridwan-banner-final .ridwan-maps-arrow {
+
+    margin-left: 2px;
+
+    font-size: 18px;
+
+    line-height: 1;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    #ridwan-banner-final .ridwan-maps-button {
+
+        margin-top: 17px;
+
+        min-height: 48px;
+
+        font-size: 13px;
+    }
+}
+
+</style>
+
 </head>
 <body>
 
@@ -1093,30 +1191,43 @@ img[alt^="Galeri Pekerjaan"] {
              ================================================== -->
         <div class="ridwan-banner-right">
 
-            <div class="ridwan-address-card">
+            
+<div class="ridwan-address-card">
 
-                <div class="ridwan-address-icon">
-                    📍
-                </div>
+    <div class="ridwan-address-icon">
+        📍
+    </div>
 
-                <div class="ridwan-address-title">
-                    ALAMAT TOKO &amp; LAYANAN
-                </div>
+    <div class="ridwan-address-title">
+        ALAMAT TOKO &amp; LAYANAN
+    </div>
 
-                <div class="ridwan-address-line"></div>
+    <div class="ridwan-address-line"></div>
 
-                <div class="ridwan-address-text">
-                    JL. MUSHOLLA HJ. JAWAB
-                    LARANGAN SELATAN - CILEDUG,
-                    KP. GAGA LARANGAN - TAMAN ASRI
-                    RT.002 / RW002 - NO 81
-                </div>
+    <div class="ridwan-address-text">
+        JL. MUSHOLLA HJ. JAWAB
+        LARANGAN SELATAN - CILEDUG,
+        KP. GAGA LARANGAN - TAMAN ASRI
+        RT.002 / RW002 - NO 81
+    </div>
 
-                <div class="ridwan-address-note">
-                    Melayani penjualan dan servis kulkas
-                </div>
+    <div class="ridwan-address-note">
+        Melayani penjualan dan servis kulkas
+    </div>
 
-            </div>
+    <a
+        href="https://www.google.com/maps/search/?api=1&query=JL.+MUSHOLLA+HJ.+JAWAB+LARANGAN+SELATAN+-+CILEDUG%2C+KP.+GAGA+LARANGAN+-+TAMAN+ASRI%2C+RT.002%2FRW002+-+NO+81%2C+Larangan+Selatan%2C+Ciledug%2C+Tangerang"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="ridwan-maps-button"
+    >
+        <span class="ridwan-maps-icon">📍</span>
+        <span>Buka Google Maps</span>
+        <span class="ridwan-maps-arrow">↗</span>
+    </a>
+
+</div>
+
 
         </div>
 
